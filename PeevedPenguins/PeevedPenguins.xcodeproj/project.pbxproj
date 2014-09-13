@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EE44F3199314D500C16137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE44F2199314D500C16137 /* AppDelegate.swift */; };
+		11EE44F5199314D500C16137 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11EE44F4199314D500C16137 /* GameScene.sks */; };
+		11EE44F7199314D500C16137 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE44F6199314D500C16137 /* GameScene.swift */; };
+		11EE44F9199314D500C16137 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE44F8199314D500C16137 /* GameViewController.swift */; };
+		11EE44FC199314D500C16137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EE44FA199314D500C16137 /* Main.storyboard */; };
+		11EE44FE199314D500C16137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EE44FD199314D500C16137 /* Images.xcassets */; };
+		11EE450A199314D500C16137 /* PeevedPenguinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE4509199314D500C16137 /* PeevedPenguinsTests.swift */; };
+		11EE4524199314E500C16137 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4514199314E500C16137 /* background.png */; };
+		11EE4525199314E500C16137 /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4515199314E500C16137 /* bear.png */; };
+		11EE4526199314E500C16137 /* beararm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4516199314E500C16137 /* beararm.png */; };
+		11EE4527199314E500C16137 /* bearnoarms.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4517199314E500C16137 /* bearnoarms.png */; };
+		11EE4528199314E500C16137 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4518199314E500C16137 /* button.png */; };
+		11EE4529199314E500C16137 /* catapult.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4519199314E500C16137 /* catapult.png */; };
+		11EE452A199314E500C16137 /* catapultarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451A199314E500C16137 /* catapultarm.png */; };
+		11EE452B199314E500C16137 /* flyingpenguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451B199314E500C16137 /* flyingpenguin.png */; };
+		11EE452C199314E500C16137 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451C199314E500C16137 /* ground.png */; };
+		11EE452D199314E500C16137 /* longblock.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451D199314E500C16137 /* longblock.png */; };
+		11EE452E199314E500C16137 /* menubackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451E199314E500C16137 /* menubackground.png */; };
+		11EE452F199314E500C16137 /* seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE451F199314E500C16137 /* seal.png */; };
+		11EE4530199314E500C16137 /* squareblock.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4520199314E500C16137 /* squareblock.png */; };
+		11EE4531199314E500C16137 /* tallblock.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4521199314E500C16137 /* tallblock.png */; };
+		11EE4532199314E500C16137 /* taperedblock.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4522199314E500C16137 /* taperedblock.png */; };
+		11EE4533199314E500C16137 /* waitingpenguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EE4523199314E500C16137 /* waitingpenguin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11EE4504199314D500C16137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EE44E5199314D500C16137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EE44EC199314D500C16137;
+			remoteInfo = PeevedPenguins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EE44ED199314D500C16137 /* PeevedPenguins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeevedPenguins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EE44F1199314D500C16137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EE44F2199314D500C16137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11EE44F4199314D500C16137 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		11EE44F6199314D500C16137 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		11EE44F8199314D500C16137 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		11EE44FB199314D500C16137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11EE44FD199314D500C16137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11EE4503199314D500C16137 /* PeevedPenguinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeevedPenguinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EE4508199314D500C16137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EE4509199314D500C16137 /* PeevedPenguinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeevedPenguinsTests.swift; sourceTree = "<group>"; };
+		11EE4514199314E500C16137 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		11EE4515199314E500C16137 /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		11EE4516199314E500C16137 /* beararm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beararm.png; sourceTree = "<group>"; };
+		11EE4517199314E500C16137 /* bearnoarms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bearnoarms.png; sourceTree = "<group>"; };
+		11EE4518199314E500C16137 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		11EE4519199314E500C16137 /* catapult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult.png; sourceTree = "<group>"; };
+		11EE451A199314E500C16137 /* catapultarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapultarm.png; sourceTree = "<group>"; };
+		11EE451B199314E500C16137 /* flyingpenguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyingpenguin.png; sourceTree = "<group>"; };
+		11EE451C199314E500C16137 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		11EE451D199314E500C16137 /* longblock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = longblock.png; sourceTree = "<group>"; };
+		11EE451E199314E500C16137 /* menubackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubackground.png; sourceTree = "<group>"; };
+		11EE451F199314E500C16137 /* seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal.png; sourceTree = "<group>"; };
+		11EE4520199314E500C16137 /* squareblock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareblock.png; sourceTree = "<group>"; };
+		11EE4521199314E500C16137 /* tallblock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tallblock.png; sourceTree = "<group>"; };
+		11EE4522199314E500C16137 /* taperedblock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taperedblock.png; sourceTree = "<group>"; };
+		11EE4523199314E500C16137 /* waitingpenguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waitingpenguin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EE44EA199314D500C16137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EE4500199314D500C16137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EE44E4199314D500C16137 = {
+			isa = PBXGroup;
+			children = (
+				11EE44EF199314D500C16137 /* PeevedPenguins */,
+				11EE4506199314D500C16137 /* PeevedPenguinsTests */,
+				11EE44EE199314D500C16137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EE44EE199314D500C16137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EE44ED199314D500C16137 /* PeevedPenguins.app */,
+				11EE4503199314D500C16137 /* PeevedPenguinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EE44EF199314D500C16137 /* PeevedPenguins */ = {
+			isa = PBXGroup;
+			children = (
+				11EE44F2199314D500C16137 /* AppDelegate.swift */,
+				11EE44F4199314D500C16137 /* GameScene.sks */,
+				11EE44F6199314D500C16137 /* GameScene.swift */,
+				11EE44F8199314D500C16137 /* GameViewController.swift */,
+				11EE44FA199314D500C16137 /* Main.storyboard */,
+				11EE44FD199314D500C16137 /* Images.xcassets */,
+				11EE4513199314E500C16137 /* PeevedPenguinsAssets */,
+				11EE44F0199314D500C16137 /* Supporting Files */,
+			);
+			path = PeevedPenguins;
+			sourceTree = "<group>";
+		};
+		11EE44F0199314D500C16137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11EE44F1199314D500C16137 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11EE4506199314D500C16137 /* PeevedPenguinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				11EE4509199314D500C16137 /* PeevedPenguinsTests.swift */,
+				11EE4507199314D500C16137 /* Supporting Files */,
+			);
+			path = PeevedPenguinsTests;
+			sourceTree = "<group>";
+		};
+		11EE4507199314D500C16137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11EE4508199314D500C16137 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11EE4513199314E500C16137 /* PeevedPenguinsAssets */ = {
+			isa = PBXGroup;
+			children = (
+				11EE4514199314E500C16137 /* background.png */,
+				11EE4515199314E500C16137 /* bear.png */,
+				11EE4516199314E500C16137 /* beararm.png */,
+				11EE4517199314E500C16137 /* bearnoarms.png */,
+				11EE4518199314E500C16137 /* button.png */,
+				11EE4519199314E500C16137 /* catapult.png */,
+				11EE451A199314E500C16137 /* catapultarm.png */,
+				11EE451B199314E500C16137 /* flyingpenguin.png */,
+				11EE451C199314E500C16137 /* ground.png */,
+				11EE451D199314E500C16137 /* longblock.png */,
+				11EE451E199314E500C16137 /* menubackground.png */,
+				11EE451F199314E500C16137 /* seal.png */,
+				11EE4520199314E500C16137 /* squareblock.png */,
+				11EE4521199314E500C16137 /* tallblock.png */,
+				11EE4522199314E500C16137 /* taperedblock.png */,
+				11EE4523199314E500C16137 /* waitingpenguin.png */,
+			);
+			path = PeevedPenguinsAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EE44EC199314D500C16137 /* PeevedPenguins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EE450D199314D500C16137 /* Build configuration list for PBXNativeTarget "PeevedPenguins" */;
+			buildPhases = (
+				11EE44E9199314D500C16137 /* Sources */,
+				11EE44EA199314D500C16137 /* Frameworks */,
+				11EE44EB199314D500C16137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeevedPenguins;
+			productName = PeevedPenguins;
+			productReference = 11EE44ED199314D500C16137 /* PeevedPenguins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11EE4502199314D500C16137 /* PeevedPenguinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EE4510199314D500C16137 /* Build configuration list for PBXNativeTarget "PeevedPenguinsTests" */;
+			buildPhases = (
+				11EE44FF199314D500C16137 /* Sources */,
+				11EE4500199314D500C16137 /* Frameworks */,
+				11EE4501199314D500C16137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EE4505199314D500C16137 /* PBXTargetDependency */,
+			);
+			name = PeevedPenguinsTests;
+			productName = PeevedPenguinsTests;
+			productReference = 11EE4503199314D500C16137 /* PeevedPenguinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EE44E5199314D500C16137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					11EE44EC199314D500C16137 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					11EE4502199314D500C16137 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 11EE44EC199314D500C16137;
+					};
+				};
+			};
+			buildConfigurationList = 11EE44E8199314D500C16137 /* Build configuration list for PBXProject "PeevedPenguins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EE44E4199314D500C16137;
+			productRefGroup = 11EE44EE199314D500C16137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EE44EC199314D500C16137 /* PeevedPenguins */,
+				11EE4502199314D500C16137 /* PeevedPenguinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EE44EB199314D500C16137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EE452C199314E500C16137 /* ground.png in Resources */,
+				11EE4529199314E500C16137 /* catapult.png in Resources */,
+				11EE44FE199314D500C16137 /* Images.xcassets in Resources */,
+				11EE452B199314E500C16137 /* flyingpenguin.png in Resources */,
+				11EE452D199314E500C16137 /* longblock.png in Resources */,
+				11EE4532199314E500C16137 /* taperedblock.png in Resources */,
+				11EE4531199314E500C16137 /* tallblock.png in Resources */,
+				11EE4528199314E500C16137 /* button.png in Resources */,
+				11EE4527199314E500C16137 /* bearnoarms.png in Resources */,
+				11EE452A199314E500C16137 /* catapultarm.png in Resources */,
+				11EE4525199314E500C16137 /* bear.png in Resources */,
+				11EE4524199314E500C16137 /* background.png in Resources */,
+				11EE44F5199314D500C16137 /* GameScene.sks in Resources */,
+				11EE4533199314E500C16137 /* waitingpenguin.png in Resources */,
+				11EE452F199314E500C16137 /* seal.png in Resources */,
+				11EE4526199314E500C16137 /* beararm.png in Resources */,
+				11EE452E199314E500C16137 /* menubackground.png in Resources */,
+				11EE4530199314E500C16137 /* squareblock.png in Resources */,
+				11EE44FC199314D500C16137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EE4501199314D500C16137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EE44E9199314D500C16137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EE44F7199314D500C16137 /* GameScene.swift in Sources */,
+				11EE44F9199314D500C16137 /* GameViewController.swift in Sources */,
+				11EE44F3199314D500C16137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EE44FF199314D500C16137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EE450A199314D500C16137 /* PeevedPenguinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EE4505199314D500C16137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EE44EC199314D500C16137 /* PeevedPenguins */;
+			targetProxy = 11EE4504199314D500C16137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11EE44FA199314D500C16137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EE44FB199314D500C16137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11EE450B199314D500C16137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EE450C199314D500C16137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EE450E199314D500C16137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PeevedPenguins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11EE450F199314D500C16137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PeevedPenguins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11EE4511199314D500C16137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeevedPenguins.app/PeevedPenguins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeevedPenguinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		11EE4512199314D500C16137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeevedPenguins.app/PeevedPenguins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeevedPenguinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EE44E8199314D500C16137 /* Build configuration list for PBXProject "PeevedPenguins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE450B199314D500C16137 /* Debug */,
+				11EE450C199314D500C16137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EE450D199314D500C16137 /* Build configuration list for PBXNativeTarget "PeevedPenguins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE450E199314D500C16137 /* Debug */,
+				11EE450F199314D500C16137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11EE4510199314D500C16137 /* Build configuration list for PBXNativeTarget "PeevedPenguinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE4511199314D500C16137 /* Debug */,
+				11EE4512199314D500C16137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EE44E5199314D500C16137 /* Project object */;
+}

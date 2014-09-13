@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1110D5C3199401FE0071712D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110D5C2199401FE0071712D /* AppDelegate.swift */; };
+		1110D5C5199401FE0071712D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1110D5C4199401FE0071712D /* GameScene.sks */; };
+		1110D5C7199401FE0071712D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110D5C6199401FE0071712D /* GameScene.swift */; };
+		1110D5C9199401FE0071712D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110D5C8199401FE0071712D /* GameViewController.swift */; };
+		1110D5CC199401FE0071712D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1110D5CA199401FE0071712D /* Main.storyboard */; };
+		1110D5CE199401FE0071712D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1110D5CD199401FE0071712D /* Images.xcassets */; };
+		1110D5DA199401FF0071712D /* Alien_DestroyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110D5D9199401FF0071712D /* Alien_DestroyerTests.swift */; };
+		1110D604199402060071712D /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1110D5E9199402060071712D /* bgmusic.mp3 */; };
+		1110D605199402060071712D /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1110D5EA199402060071712D /* torpedo.mp3 */; };
+		1110D61F1994028C0071712D /* alien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1110D61C1994028C0071712D /* alien@2x.png */; };
+		1110D6201994028C0071712D /* shuttle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1110D61D1994028C0071712D /* shuttle@2x.png */; };
+		1110D6211994028C0071712D /* torpedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1110D61E1994028C0071712D /* torpedo@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1110D5D4199401FF0071712D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1110D5B5199401FE0071712D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1110D5BC199401FE0071712D;
+			remoteInfo = "Alien Destroyer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1110D5BD199401FE0071712D /* Alien Destroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alien Destroyer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1110D5C1199401FE0071712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1110D5C2199401FE0071712D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1110D5C4199401FE0071712D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1110D5C6199401FE0071712D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1110D5C8199401FE0071712D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1110D5CB199401FE0071712D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1110D5CD199401FE0071712D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1110D5D3199401FF0071712D /* Alien DestroyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alien DestroyerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1110D5D8199401FF0071712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1110D5D9199401FF0071712D /* Alien_DestroyerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien_DestroyerTests.swift; sourceTree = "<group>"; };
+		1110D5E9199402060071712D /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		1110D5EA199402060071712D /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		1110D61C1994028C0071712D /* alien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien@2x.png"; sourceTree = "<group>"; };
+		1110D61D1994028C0071712D /* shuttle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuttle@2x.png"; sourceTree = "<group>"; };
+		1110D61E1994028C0071712D /* torpedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torpedo@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1110D5BA199401FE0071712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1110D5D0199401FF0071712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1110D5B4199401FE0071712D = {
+			isa = PBXGroup;
+			children = (
+				1110D5BF199401FE0071712D /* Alien Destroyer */,
+				1110D5D6199401FF0071712D /* Alien DestroyerTests */,
+				1110D5BE199401FE0071712D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1110D5BE199401FE0071712D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5BD199401FE0071712D /* Alien Destroyer.app */,
+				1110D5D3199401FF0071712D /* Alien DestroyerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1110D5BF199401FE0071712D /* Alien Destroyer */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5C2199401FE0071712D /* AppDelegate.swift */,
+				1110D5C4199401FE0071712D /* GameScene.sks */,
+				1110D5C6199401FE0071712D /* GameScene.swift */,
+				1110D5C8199401FE0071712D /* GameViewController.swift */,
+				1110D5CA199401FE0071712D /* Main.storyboard */,
+				1110D5CD199401FE0071712D /* Images.xcassets */,
+				1110D61B1994026B0071712D /* sprites.atlas */,
+				1110D5E8199402060071712D /* sounds */,
+				1110D5C0199401FE0071712D /* Supporting Files */,
+			);
+			path = "Alien Destroyer";
+			sourceTree = "<group>";
+		};
+		1110D5C0199401FE0071712D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5C1199401FE0071712D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1110D5D6199401FF0071712D /* Alien DestroyerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5D9199401FF0071712D /* Alien_DestroyerTests.swift */,
+				1110D5D7199401FF0071712D /* Supporting Files */,
+			);
+			path = "Alien DestroyerTests";
+			sourceTree = "<group>";
+		};
+		1110D5D7199401FF0071712D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5D8199401FF0071712D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1110D5E8199402060071712D /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1110D5E9199402060071712D /* bgmusic.mp3 */,
+				1110D5EA199402060071712D /* torpedo.mp3 */,
+			);
+			name = sounds;
+			path = SpaceGameTutorialFiles/sounds;
+			sourceTree = "<group>";
+		};
+		1110D61B1994026B0071712D /* sprites.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				1110D61C1994028C0071712D /* alien@2x.png */,
+				1110D61D1994028C0071712D /* shuttle@2x.png */,
+				1110D61E1994028C0071712D /* torpedo@2x.png */,
+			);
+			name = sprites.atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1110D5BC199401FE0071712D /* Alien Destroyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1110D5DD199401FF0071712D /* Build configuration list for PBXNativeTarget "Alien Destroyer" */;
+			buildPhases = (
+				1110D5B9199401FE0071712D /* Sources */,
+				1110D5BA199401FE0071712D /* Frameworks */,
+				1110D5BB199401FE0071712D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alien Destroyer";
+			productName = "Alien Destroyer";
+			productReference = 1110D5BD199401FE0071712D /* Alien Destroyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1110D5D2199401FF0071712D /* Alien DestroyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1110D5E0199401FF0071712D /* Build configuration list for PBXNativeTarget "Alien DestroyerTests" */;
+			buildPhases = (
+				1110D5CF199401FF0071712D /* Sources */,
+				1110D5D0199401FF0071712D /* Frameworks */,
+				1110D5D1199401FF0071712D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1110D5D5199401FF0071712D /* PBXTargetDependency */,
+			);
+			name = "Alien DestroyerTests";
+			productName = "Alien DestroyerTests";
+			productReference = 1110D5D3199401FF0071712D /* Alien DestroyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1110D5B5199401FE0071712D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					1110D5BC199401FE0071712D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4N3AGH4V26;
+					};
+					1110D5D2199401FF0071712D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1110D5BC199401FE0071712D;
+					};
+				};
+			};
+			buildConfigurationList = 1110D5B8199401FE0071712D /* Build configuration list for PBXProject "Alien Destroyer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1110D5B4199401FE0071712D;
+			productRefGroup = 1110D5BE199401FE0071712D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1110D5BC199401FE0071712D /* Alien Destroyer */,
+				1110D5D2199401FF0071712D /* Alien DestroyerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1110D5BB199401FE0071712D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1110D5CE199401FE0071712D /* Images.xcassets in Resources */,
+				1110D61F1994028C0071712D /* alien@2x.png in Resources */,
+				1110D5C5199401FE0071712D /* GameScene.sks in Resources */,
+				1110D604199402060071712D /* bgmusic.mp3 in Resources */,
+				1110D6201994028C0071712D /* shuttle@2x.png in Resources */,
+				1110D6211994028C0071712D /* torpedo@2x.png in Resources */,
+				1110D605199402060071712D /* torpedo.mp3 in Resources */,
+				1110D5CC199401FE0071712D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1110D5D1199401FF0071712D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1110D5B9199401FE0071712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1110D5C7199401FE0071712D /* GameScene.swift in Sources */,
+				1110D5C9199401FE0071712D /* GameViewController.swift in Sources */,
+				1110D5C3199401FE0071712D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1110D5CF199401FF0071712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1110D5DA199401FF0071712D /* Alien_DestroyerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1110D5D5199401FF0071712D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1110D5BC199401FE0071712D /* Alien Destroyer */;
+			targetProxy = 1110D5D4199401FF0071712D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1110D5CA199401FE0071712D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1110D5CB199401FE0071712D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1110D5DB199401FF0071712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1110D5DC199401FF0071712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1110D5DE199401FF0071712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Alien Destroyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1110D5DF199401FF0071712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Alien Destroyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1110D5E1199401FF0071712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alien Destroyer.app/Alien Destroyer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alien DestroyerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1110D5E2199401FF0071712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alien Destroyer.app/Alien Destroyer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alien DestroyerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1110D5B8199401FE0071712D /* Build configuration list for PBXProject "Alien Destroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1110D5DB199401FF0071712D /* Debug */,
+				1110D5DC199401FF0071712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1110D5DD199401FF0071712D /* Build configuration list for PBXNativeTarget "Alien Destroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1110D5DE199401FF0071712D /* Debug */,
+				1110D5DF199401FF0071712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1110D5E0199401FF0071712D /* Build configuration list for PBXNativeTarget "Alien DestroyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1110D5E1199401FF0071712D /* Debug */,
+				1110D5E2199401FF0071712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1110D5B5199401FE0071712D /* Project object */;
+}
