@@ -26,7 +26,7 @@ class ListViewController : UITableViewController, UIImagePickerControllerDelegat
         } else {
             imagePicker.sourceType = .PhotoLibrary //UIImagePickerControllerSource.PhotoLibrary
         }
-         
+        
         imagePicker.delegate = self
         presentViewController(imagePicker, animated: true, completion: nil)
     }
