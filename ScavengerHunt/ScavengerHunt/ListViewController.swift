@@ -11,7 +11,7 @@ import UIKit
 class ListViewController : UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
    
    // var itemsList = [ScavengerHuntItem]()
-    
+
     let itemsManager = ItemsManager()
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
