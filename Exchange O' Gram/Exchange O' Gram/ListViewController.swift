@@ -10,7 +10,9 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
-    let tableArray:NSMutableArray = ["iPad"]
+    let tableArray:NSMutableArray = ["iPad", "Chocolate", "Mouse"]
+    let priceArray:NSMutableArray = ["$500", "$0", "$20"]
+    let imageArray:NSMutableArray = [UIImage(named: "ipad.jpg"), UIImage(named: "futon.jpg"), UIImage(named: "speakers.jpg")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,21 +34,21 @@ class ListViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return tableArray.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return tableArray.count
+        return 1
     }
-
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
-        let cell = tableView.dequeueReusableCellWithIdentifier("ListViewCell", forIndexPath: indexPath) as UITableViewCell
-        cell.imageView!.image = UIImage(named: "ipad.jpg")
-        cell.textLabel!.text = "iPad"
-        
+        //let cell = tableView.dequeueReusableCellWithIdentifier("ListViewCell", forIndexPath: indexPath) as UITableViewCell
+        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "ListViewCell")
+        cell.imageView!.image = imageArray[indexPath.section] as? UIImage
+        cell.textLabel!.text = tableArray[indexPath.section] as? String
+        cell.detailTextLabel!.text = priceArray[indexPath.section] as? String        
 
         // Configure the cell...
 

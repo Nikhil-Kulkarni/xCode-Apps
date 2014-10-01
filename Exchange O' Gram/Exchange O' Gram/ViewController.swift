@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         let price:String = itemPrice.text
         let description:String = itemDescription.text
         
+        
+        
         itemName.text = ""
         itemPrice.text = ""
         itemDescription.text = ""

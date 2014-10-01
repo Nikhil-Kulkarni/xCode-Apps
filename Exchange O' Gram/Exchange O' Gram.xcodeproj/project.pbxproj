@@ -16,6 +16,9 @@
 		11D4437819D742450016E9EB /* exchange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11D4437719D742450016E9EB /* exchange.jpg */; };
 		11D4437A19D74BC80016E9EB /* ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11D4437919D74BC80016E9EB /* ipad.jpg */; };
 		11D4438219D75B180016E9EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4438119D75B180016E9EB /* ListViewController.swift */; };
+		11D4438519DAFD900016E9EB /* futon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11D4438319DAFD900016E9EB /* futon.jpg */; };
+		11D4438619DAFD900016E9EB /* speakers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11D4438419DAFD900016E9EB /* speakers.jpg */; };
+		11D4438819DB40770016E9EB /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4438719DB40770016E9EB /* ItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		11D4437719D742450016E9EB /* exchange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exchange.jpg; sourceTree = "<group>"; };
 		11D4437919D74BC80016E9EB /* ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad.jpg; sourceTree = "<group>"; };
 		11D4438119D75B180016E9EB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		11D4438319DAFD900016E9EB /* futon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = futon.jpg; sourceTree = "<group>"; };
+		11D4438419DAFD900016E9EB /* speakers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speakers.jpg; sourceTree = "<group>"; };
+		11D4438719DB40770016E9EB /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +91,12 @@
 			children = (
 				11D4435719D72A1D0016E9EB /* AppDelegate.swift */,
 				11D4435919D72A1D0016E9EB /* ViewController.swift */,
+				11D4438719DB40770016E9EB /* ItemManager.swift */,
 				11D4435B19D72A1D0016E9EB /* Main.storyboard */,
 				11D4438119D75B180016E9EB /* ListViewController.swift */,
 				11D4437919D74BC80016E9EB /* ipad.jpg */,
+				11D4438319DAFD900016E9EB /* futon.jpg */,
+				11D4438419DAFD900016E9EB /* speakers.jpg */,
 				11D4435E19D72A1D0016E9EB /* Images.xcassets */,
 				11D4437719D742450016E9EB /* exchange.jpg */,
 				11D4436019D72A1D0016E9EB /* LaunchScreen.xib */,
@@ -203,6 +212,8 @@
 			files = (
 				11D4435D19D72A1D0016E9EB /* Main.storyboard in Resources */,
 				11D4437A19D74BC80016E9EB /* ipad.jpg in Resources */,
+				11D4438619DAFD900016E9EB /* speakers.jpg in Resources */,
+				11D4438519DAFD900016E9EB /* futon.jpg in Resources */,
 				11D4436219D72A1D0016E9EB /* LaunchScreen.xib in Resources */,
 				11D4437819D742450016E9EB /* exchange.jpg in Resources */,
 				11D4435F19D72A1D0016E9EB /* Images.xcassets in Resources */,
@@ -225,6 +236,7 @@
 			files = (
 				11D4435A19D72A1D0016E9EB /* ViewController.swift in Sources */,
 				11D4435819D72A1D0016E9EB /* AppDelegate.swift in Sources */,
+				11D4438819DB40770016E9EB /* ItemManager.swift in Sources */,
 				11D4438219D75B180016E9EB /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

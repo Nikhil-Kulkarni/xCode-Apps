@@ -42,24 +42,15 @@
                                     <segue destination="2x2-Ze-NRX" kind="presentation" id="MdI-QT-rNN"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Sell an Item" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tQM-M2-1UQ">
-                                <rect key="frame" x="186" y="72" width="228" height="33"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jDB-4y-irt" firstAttribute="top" secondItem="pWd-nn-2Wk" secondAttribute="bottom" constant="20" id="54a-1Q-htv"/>
                             <constraint firstItem="Im0-Gc-bVu" firstAttribute="top" secondItem="jDB-4y-irt" secondAttribute="bottom" constant="20" id="6nD-rO-HN9"/>
                             <constraint firstItem="pWd-nn-2Wk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="Cbh-10-QiK"/>
-                            <constraint firstItem="pWd-nn-2Wk" firstAttribute="top" secondItem="tQM-M2-1UQ" secondAttribute="bottom" constant="15" id="Fzk-lL-gBZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IiD-oS-R0e" secondAttribute="trailing" constant="261" id="KbS-s0-8Tx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tQM-M2-1UQ" secondAttribute="trailing" constant="170" id="Qhe-Jc-rCY"/>
                             <constraint firstItem="jDB-4y-irt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="XfZ-eB-hWt"/>
                             <constraint firstItem="IiD-oS-R0e" firstAttribute="top" secondItem="Im0-Gc-bVu" secondAttribute="bottom" constant="30" id="Xuu-2M-vAJ"/>
-                            <constraint firstItem="tQM-M2-1UQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="170" id="aoP-pc-upO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="pWd-nn-2Wk" secondAttribute="trailing" constant="10" id="b7N-Lh-7TE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jDB-4y-irt" secondAttribute="trailing" constant="10" id="dda-he-26c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Im0-Gc-bVu" secondAttribute="trailing" constant="10" id="gsY-id-eVj"/>
@@ -153,19 +144,6 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2E-BQ-Ime">
                                             <rect key="frame" x="8" y="9" width="211" height="162"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFT-7j-ymx">
-                                            <rect key="frame" x="260" y="9" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="piC-He-GeI">
-                                            <rect key="frame" x="352" y="26" width="240" height="128"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        </textView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -219,6 +197,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bWg-2Y-qqu"/>
+        <segue reference="MdI-QT-rNN"/>
     </inferredMetricsTieBreakers>
 </document>
