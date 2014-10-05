@@ -1,24 +1,19 @@
 //
-//  ListViewController.swift
-//  Exchange O' Gram
+//  MainTableViewController.swift
+//  Learn Swift
 //
-//  Created by Nikhil Kulkarni on 9/27/14.
+//  Created by Nikhil Kulkarni on 10/4/14.
 //  Copyright (c) 2014 Nikhil Kulkarni. All rights reserved.
 //
 
 import UIKit
 
-class ListViewController: UITableViewController {
+class MainTableViewController: UITableViewController {
     
-    let tableArray:NSMutableArray = ["iPad", "Chocolate", "Mouse"]
-    let priceArray:NSMutableArray = ["$500", "$0", "$20"]
-    let imageArray:NSMutableArray = [UIImage(named: "ipad.jpg"), UIImage(named: "futon.jpg"), UIImage(named: "speakers.jpg")]
+    var tableOfContent:NSMutableArray = ["Basics", "Storyboard", "Control Flow", "Functions", "Classes", "UIKit", "Simple Table App", "Parse", "Build this app!"]
+    
+    var detail:NSMutableArray = ["Guts of programs", "Visualing your app", "if-statements, loops", "Code snippets", "Objects", "UI elements", "tableViewControllers", "Put data in the cloud", "Yay!"]
 
-    @IBAction func cancel(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,35 +28,71 @@ class ListViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return tableArray.count
+        return tableOfContent.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        // #warning Incomplete method implementation.
+        // Return the number of rows in the section.
         return 1
     }
+
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
-        //let cell = tableView.dequeueReusableCellWithIdentifier("ListViewCell", forIndexPath: indexPath) as UITableViewCell
-        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "ListViewCell")
-        cell.imageView!.image = imageArray[indexPath.section] as? UIImage
-        cell.textLabel!.text = tableArray[indexPath.section] as? String
-        cell.detailTextLabel!.text = priceArray[indexPath.section] as? String        
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
+        
+        cell.textLabel!.text = tableOfContent[indexPath.section] as? String
+        cell.detailTextLabel!.text = detail[indexPath.section] as? String
+        cell.alpha = 0
+        
+        UIView.animateWithDuration(2.0, animations: { () -> Void in
+            cell.alpha = 1.0
+        })
+        
+        
 
         // Configure the cell...
 
         return cell
     }
-
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if(indexPath.section == 0) {
+            var basic: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("BasicView") as UIViewController
+            self.navigationController?.pushViewController(basic, animated: true)
+        }
+        if(indexPath.section == 1) {
+            println("Storyboard")
+        }
+        if(indexPath.section == 2) {
+            println("Control Flow")
+        }
+        if(indexPath.section == 3) {
+            println("Function")
+        }
+        if(indexPath.section == 4) {
+            println("Classes")
+        }
+        if(indexPath.section == 5) {
+            println("UIKit")
+        }
+        if(indexPath.section == 6) {
+            println("Simple table app")
+        }
+        if(indexPath.section == 7) {
+            println("Parse")
+        }
+        if(indexPath.section == 8) {
+            println("Make this app!")
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.

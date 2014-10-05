@@ -67,8 +67,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="itemDescription" destination="Im0-Gc-bVu" id="Anm-Sw-6bY"/>
-                        <outlet property="itemName" destination="pWd-nn-2Wk" id="gHP-AG-JWs"/>
+                        <outlet property="itemDescription" destination="Im0-Gc-bVu" id="SkE-zE-ta5"/>
+                        <outlet property="itemName" destination="pWd-nn-2Wk" id="Tat-mt-uKs"/>
                         <outlet property="itemPrice" destination="jDB-4y-irt" id="kYG-mA-KgL"/>
                     </connections>
                 </viewController>
@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="956" y="-365"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="7S3-WU-LZB">
             <objects>
-                <viewController id="Xgu-SH-YBD" sceneMemberID="viewController">
+                <viewController id="Xgu-SH-YBD" customClass="MainViewController" customModule="Exchange_O__Gram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pZa-as-Ehq"/>
                         <viewControllerLayoutGuide type="bottom" id="b9n-QY-pOk"/>
@@ -95,7 +95,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b6d-AT-wKW" kind="presentation" id="Zn0-a4-uZJ"/>
+                                    <segue destination="b6d-AT-wKW" kind="presentation" id="tZz-YN-ps3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3w-e5-yYw">
@@ -122,6 +122,10 @@
                     <navigationItem key="navigationItem" id="6jM-8c-ROe">
                         <barButtonItem key="rightBarButtonItem" title="Create" id="aIv-tO-LBq"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="buyLabel" destination="X3w-e5-yYw" id="Qxq-r1-3Mc"/>
+                        <outlet property="sellLabel" destination="nM1-ha-4I5" id="ztO-Lf-Qzu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aV4-6Q-N3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,7 +157,13 @@
                             <outlet property="delegate" destination="GUQ-ej-U85" id="M5i-jA-spf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Uua-iZ-THh"/>
+                    <navigationItem key="navigationItem" id="Uua-iZ-THh">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="7Xe-Nb-Jro">
+                            <connections>
+                                <action selector="cancel:" destination="GUQ-ej-U85" id="pBw-m6-lZW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJZ-Yr-4CV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

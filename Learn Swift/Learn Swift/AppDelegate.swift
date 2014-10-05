@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ScavengerHunt
+//  Learn Swift
 //
-//  Created by Nikhil Kulkarni on 9/18/14.
+//  Created by Nikhil Kulkarni on 10/4/14.
 //  Copyright (c) 2014 Nikhil Kulkarni. All rights reserved.
 //
 

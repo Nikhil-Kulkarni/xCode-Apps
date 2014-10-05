@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn Swift/MainTableViewController.swift"
+            timestampString = "434138895.713864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn Swift/MainTableViewController.swift"
+            timestampString = "434134732.372184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MainTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.tableOfContent.getter : ObjectiveC.NSMutableArray"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.419128"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.tableOfContent.setter : ObjectiveC.NSMutableArray"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.432579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.init (Learn_Swift.MainTableViewController.Type)(style : C.UITableViewStyle) -&gt; Learn_Swift.MainTableViewController"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.432853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.init (Learn_Swift.MainTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Learn_Swift.MainTableViewController"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.init (Learn_Swift.MainTableViewController.Type)() -&gt; Learn_Swift.MainTableViewController"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.433141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_Swift.MainTableViewController.init (Learn_Swift.MainTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Learn_Swift.MainTableViewController"
+                  moduleName = "Learn Swift"
+                  urlString = "file:///Users/nikhilkulkarni/Documents/xCode%20Apps/Learn%20Swift/Learn%20Swift/MainTableViewController.swift"
+                  timestampString = "434134732.433275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
