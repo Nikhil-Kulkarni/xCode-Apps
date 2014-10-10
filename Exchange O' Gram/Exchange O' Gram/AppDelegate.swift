@@ -13,11 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         // Override point for customization after application launch.
         
         UINavigationBar.appearance().barTintColor = UIColor.orangeColor()
+        
+        Parse.setApplicationId("HOOLAi5YjcdEaOtsV3BzE1vBolWk9CFBORq55LpQ", clientKey: "9VU6w5JMxnDRuf27XjhYlZUdcQFEMK3iLzUJ391M")
         
         return true
     }

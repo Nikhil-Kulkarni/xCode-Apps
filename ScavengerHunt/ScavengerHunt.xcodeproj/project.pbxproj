@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1130663F19E6F2F300665CCA /* Parse-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parse-Header.h"; sourceTree = "<group>"; };
 		11FAF5F219CB904B006D9947 /* ScavengerHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScavengerHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FAF5F619CB904B006D9947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FAF5F719CB904B006D9947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				11FAF5F719CB904B006D9947 /* AppDelegate.swift */,
 				11FAF5F919CB904B006D9947 /* ViewController.swift */,
 				11FAF61719CB9A8F006D9947 /* ListViewController.swift */,
+				1130663F19E6F2F300665CCA /* Parse-Header.h */,
 				11FAF61919CBC37A006D9947 /* ScavengerHuntItem.swift */,
 				11FAF5FB19CB904B006D9947 /* Main.storyboard */,
 				11FAF5FE19CB904B006D9947 /* Images.xcassets */,
@@ -419,6 +421,7 @@
 				11FAF61319CB904B006D9947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FAF61419CB904B006D9947 /* Build configuration list for PBXNativeTarget "ScavengerHuntTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				11FAF61619CB904B006D9947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

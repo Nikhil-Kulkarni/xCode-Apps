@@ -55,8 +55,6 @@ class MainTableViewController: UITableViewController {
         UIView.animateWithDuration(2.0, animations: { () -> Void in
             cell.alpha = 1.0
         })
-        
-        
 
         // Configure the cell...
 
@@ -67,29 +65,46 @@ class MainTableViewController: UITableViewController {
         if(indexPath.section == 0) {
             var basic: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("BasicView") as UIViewController
             self.navigationController?.pushViewController(basic, animated: true)
+            println("Basic of Programming")
         }
         if(indexPath.section == 1) {
+            var storyboard: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Storyboard") as UIViewController
+            self.navigationController?.pushViewController(storyboard, animated: true)
             println("Storyboard")
         }
         if(indexPath.section == 2) {
+            var controlFlow: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Control Flow") as UIViewController
+            self.navigationController?.pushViewController(controlFlow, animated: true)
             println("Control Flow")
         }
         if(indexPath.section == 3) {
+            var functions: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Functions") as UIViewController
+            self.navigationController?.pushViewController(functions, animated: true)
             println("Function")
         }
         if(indexPath.section == 4) {
+            var classes: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("classes") as UIViewController
+            self.navigationController?.pushViewController(classes, animated: true)
             println("Classes")
         }
         if(indexPath.section == 5) {
+            var uikit: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("uikit") as UIViewController
+            self.navigationController?.pushViewController(uikit, animated: true)
             println("UIKit")
         }
         if(indexPath.section == 6) {
+            var simpleTableApp: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Simple Table App") as UIViewController
+            self.navigationController?.pushViewController(simpleTableApp, animated: true)
             println("Simple table app")
         }
         if(indexPath.section == 7) {
+            var parse: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Parse") as UIViewController
+            self.navigationController?.pushViewController(parse, animated: true)
             println("Parse")
         }
         if(indexPath.section == 8) {
+            var makeThisApp: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("makeThisApp") as UIViewController
+            self.navigationController?.pushViewController(makeThisApp, animated: true)
             println("Make this app!")
         }
     }
@@ -104,7 +119,7 @@ class MainTableViewController: UITableViewController {
 
     /*
     // Override to support editing the table view.
-    override func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
         if editingStyle == .Delete {
             // Delete the row from the data source
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)

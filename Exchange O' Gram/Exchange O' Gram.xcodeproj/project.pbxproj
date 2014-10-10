@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1130663519E6F23300665CCA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130662B19E6F23300665CCA /* AudioToolbox.framework */; };
+		1130663619E6F23300665CCA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130662C19E6F23300665CCA /* CFNetwork.framework */; };
+		1130663719E6F23300665CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130662D19E6F23300665CCA /* CoreGraphics.framework */; };
+		1130663819E6F23300665CCA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130662E19E6F23300665CCA /* CoreLocation.framework */; };
+		1130663919E6F23300665CCA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130662F19E6F23300665CCA /* libz.dylib */; };
+		1130663A19E6F23300665CCA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130663019E6F23300665CCA /* MobileCoreServices.framework */; };
+		1130663B19E6F23300665CCA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130663119E6F23300665CCA /* QuartzCore.framework */; };
+		1130663C19E6F23300665CCA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130663219E6F23300665CCA /* Security.framework */; };
+		1130663D19E6F23300665CCA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130663319E6F23300665CCA /* StoreKit.framework */; };
+		1130663E19E6F23300665CCA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130663419E6F23300665CCA /* SystemConfiguration.framework */; };
+		1130664E19E7029D00665CCA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130664D19E7029D00665CCA /* Parse.framework */; };
 		11D1221019E09742006A8D7B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1220F19E09742006A8D7B /* MainViewController.swift */; };
 		11D4435819D72A1D0016E9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4435719D72A1D0016E9EB /* AppDelegate.swift */; };
 		11D4435A19D72A1D0016E9EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4435919D72A1D0016E9EB /* ViewController.swift */; };
@@ -33,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1130662B19E6F23300665CCA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1130662C19E6F23300665CCA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1130662D19E6F23300665CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1130662E19E6F23300665CCA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1130662F19E6F23300665CCA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1130663019E6F23300665CCA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1130663119E6F23300665CCA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1130663219E6F23300665CCA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1130663319E6F23300665CCA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1130663419E6F23300665CCA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1130664919E6F6A100665CCA /* Exchange O' Gram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exchange O' Gram-Bridging-Header.h"; sourceTree = "<group>"; };
+		1130664D19E7029D00665CCA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		11D1220F19E09742006A8D7B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		11D4435219D72A1D0016E9EB /* Exchange O' Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exchange O' Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4435619D72A1D0016E9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1130663519E6F23300665CCA /* AudioToolbox.framework in Frameworks */,
+				1130663619E6F23300665CCA /* CFNetwork.framework in Frameworks */,
+				1130663719E6F23300665CCA /* CoreGraphics.framework in Frameworks */,
+				1130663819E6F23300665CCA /* CoreLocation.framework in Frameworks */,
+				1130663919E6F23300665CCA /* libz.dylib in Frameworks */,
+				1130663A19E6F23300665CCA /* MobileCoreServices.framework in Frameworks */,
+				1130664E19E7029D00665CCA /* Parse.framework in Frameworks */,
+				1130663B19E6F23300665CCA /* QuartzCore.framework in Frameworks */,
+				1130663C19E6F23300665CCA /* Security.framework in Frameworks */,
+				1130663D19E6F23300665CCA /* StoreKit.framework in Frameworks */,
+				1130663E19E6F23300665CCA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +104,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1130664C19E7026C00665CCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1130664D19E7029D00665CCA /* Parse.framework */,
+				1130662B19E6F23300665CCA /* AudioToolbox.framework */,
+				1130662C19E6F23300665CCA /* CFNetwork.framework */,
+				1130662D19E6F23300665CCA /* CoreGraphics.framework */,
+				1130662E19E6F23300665CCA /* CoreLocation.framework */,
+				1130662F19E6F23300665CCA /* libz.dylib */,
+				1130663019E6F23300665CCA /* MobileCoreServices.framework */,
+				1130663119E6F23300665CCA /* QuartzCore.framework */,
+				1130663219E6F23300665CCA /* Security.framework */,
+				1130663319E6F23300665CCA /* StoreKit.framework */,
+				1130663419E6F23300665CCA /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		11D4434919D72A1D0016E9EB = {
 			isa = PBXGroup;
 			children = (
+				1130664C19E7026C00665CCA /* Frameworks */,
 				11D4435419D72A1D0016E9EB /* Exchange O' Gram */,
 				11D4436A19D72A1E0016E9EB /* Exchange O' GramTests */,
 				11D4435319D72A1D0016E9EB /* Products */,
@@ -97,6 +150,7 @@
 				11D4435B19D72A1D0016E9EB /* Main.storyboard */,
 				11D4438119D75B180016E9EB /* ListViewController.swift */,
 				11D1220F19E09742006A8D7B /* MainViewController.swift */,
+				1130664919E6F6A100665CCA /* Exchange O' Gram-Bridging-Header.h */,
 				11D4437919D74BC80016E9EB /* ipad.jpg */,
 				11D4438319DAFD900016E9EB /* futon.jpg */,
 				11D4438419DAFD900016E9EB /* speakers.jpg */,
@@ -366,9 +420,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Exchange",
+					"O' Gram/parse-library-1.4.1 $(PROJECT_DIR)/Exchange O'",
+					Gram,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Exchange O' Gram/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Exchange O' Gram/Exchange O' Gram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -376,9 +440,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Exchange",
+					"O' Gram/parse-library-1.4.1 $(PROJECT_DIR)/Exchange O'",
+					Gram,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Exchange O' Gram/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Exchange O' Gram/Exchange O' Gram-Bridging-Header.h";
 			};
 			name = Release;
 		};

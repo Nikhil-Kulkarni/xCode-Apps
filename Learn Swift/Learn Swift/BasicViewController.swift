@@ -10,18 +10,20 @@ import UIKit
 
 class BasicViewController: ViewController {
     
+    @IBOutlet var scrollView: UIScrollView!
    
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-         
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        
 
+    }
+    
+    override func viewDidLayoutSubviews() {
+        scrollView.scrollEnabled = true
+        scrollView.contentSize = CGSizeMake(400, 776)
     }
    
 }
