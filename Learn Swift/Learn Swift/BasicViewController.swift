@@ -22,8 +22,8 @@ class BasicViewController: ViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        scrollView.scrollEnabled = true
-        scrollView.contentSize = CGSizeMake(400, 776)
+        //scrollView.scrollEnabled = true
+        //scrollView.contentSize = CGSizeMake(400, 776)
     }
    
 }

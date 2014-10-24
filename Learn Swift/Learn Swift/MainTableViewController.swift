@@ -64,8 +64,9 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if(indexPath.section == 0) {
             var basic: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("BasicView") as UIViewController
-            self.navigationController?.pushViewController(basic, animated: true)
+            //self.navigationController?.pushViewController(basic, animated: true)
             println("Basic of Programming")
+            self.navigationController?.pushViewController(basic, animated: true)
         }
         if(indexPath.section == 1) {
             var storyboard: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Storyboard") as UIViewController
@@ -130,7 +131,7 @@ class MainTableViewController: UITableViewController {
     */
 
     /*
-    // Override to support rearranging the table view.
+     Override to support rearranging the table view.
     override func tableView(tableView: UITableView!, moveRowAtIndexPath fromIndexPath: NSIndexPath!, toIndexPath: NSIndexPath!) {
 
     }
