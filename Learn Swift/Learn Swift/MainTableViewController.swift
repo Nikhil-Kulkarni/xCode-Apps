@@ -48,7 +48,7 @@ class MainTableViewController: UITableViewController {
     
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel!.text = tableOfContent[indexPath.section] as? String
+        cell.textLabel.text = tableOfContent[indexPath.section] as? String
         cell.detailTextLabel!.text = detail[indexPath.section] as? String
         cell.alpha = 0
         

@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11031C9D1A8DCEEE00FD3830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11031C9C1A8DCEEE00FD3830 /* AppDelegate.swift */; };
+		11031CA21A8DCEEE00FD3830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11031CA01A8DCEEE00FD3830 /* Main.storyboard */; };
+		11031CA41A8DCEEE00FD3830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11031CA31A8DCEEE00FD3830 /* Images.xcassets */; };
+		11031CA71A8DCEEE00FD3830 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11031CA51A8DCEEE00FD3830 /* LaunchScreen.xib */; };
+		11031CB31A8DCEEE00FD3830 /* AppCodaFoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11031CB21A8DCEEE00FD3830 /* AppCodaFoodPinTests.swift */; };
+		114063A11A98D1EF00BEA722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114063A01A98D1EF00BEA722 /* MapViewController.swift */; };
+		114FB1801A9AC4AC00AFDFFB /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 114FB17E1A9AC4AC00AFDFFB /* FoodPin.xcdatamodeld */; };
+		114FB3981A96D20700450024 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB3971A96D20700450024 /* ReviewViewController.swift */; };
+		114FB39A1A96DCFC00450024 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB3991A96DCFC00450024 /* ShareViewController.swift */; };
+		114FB39C1A971D1100450024 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114FB39B1A971D1100450024 /* MapKit.framework */; };
+		1160FE5D1A997D8600D2E7B0 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160FE5C1A997D8600D2E7B0 /* AddTableViewController.swift */; };
+		11613B521A8FF78D00C39769 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11613B511A8FF78D00C39769 /* DetailViewController.swift */; };
+		118B21441AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 118B21431AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app */; };
+		118B21511AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118B21361AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11BCCC291A90309F00DD8AB0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BCCC281A90309F00DD8AB0 /* Restaurant.swift */; };
+		11C08D861A8DD4E20006B3D2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C08D851A8DD4E20006B3D2 /* CustomTableViewCell.swift */; };
+		11C08D881A8DD7940006B3D2 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C08D871A8DD7940006B3D2 /* CustomTableViewController.swift */; };
+		11F412511A92D3B200378550 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F412501A92D3B200378550 /* DetailTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11031CAD1A8DCEEE00FD3830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11031C8F1A8DCEEE00FD3830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11031C961A8DCEEE00FD3830;
+			remoteInfo = AppCodaFoodPin;
+		};
+		118B21451AAEAE9400FDFC0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11031C8F1A8DCEEE00FD3830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118B21421AAEAE9400FDFC0C;
+			remoteInfo = "AppCodaFoodPin WatchKit App";
+		};
+		118B214F1AAEAE9400FDFC0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11031C8F1A8DCEEE00FD3830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118B21351AAEAE9400FDFC0C;
+			remoteInfo = "AppCodaFoodPin WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		118B21581AAEAE9400FDFC0C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				118B21511AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11031C971A8DCEEE00FD3830 /* AppCodaFoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCodaFoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11031C9B1A8DCEEE00FD3830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11031C9C1A8DCEEE00FD3830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11031CA11A8DCEEE00FD3830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11031CA31A8DCEEE00FD3830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11031CA61A8DCEEE00FD3830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11031CAC1A8DCEEE00FD3830 /* AppCodaFoodPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCodaFoodPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11031CB11A8DCEEE00FD3830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11031CB21A8DCEEE00FD3830 /* AppCodaFoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCodaFoodPinTests.swift; sourceTree = "<group>"; };
+		114063A01A98D1EF00BEA722 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		114FB17F1A9AC4AC00AFDFFB /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
+		114FB3971A96D20700450024 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		114FB3991A96DCFC00450024 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		114FB39B1A971D1100450024 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1160FE5C1A997D8600D2E7B0 /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		11613B511A8FF78D00C39769 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		118B21361AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppCodaFoodPin WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118B21431AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppCodaFoodPin WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BA1DE01A9FB94A008D9D4C /* AppCodaFoodPin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppCodaFoodPin-Bridging-Header.h"; sourceTree = "<group>"; };
+		11BCCC281A90309F00DD8AB0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		11C08D851A8DD4E20006B3D2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		11C08D871A8DD7940006B3D2 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		11F412501A92D3B200378550 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11031C941A8DCEEE00FD3830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114FB39C1A971D1100450024 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11031CA91A8DCEEE00FD3830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B21331AAEAE9400FDFC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11031C8E1A8DCEEE00FD3830 = {
+			isa = PBXGroup;
+			children = (
+				114FB39B1A971D1100450024 /* MapKit.framework */,
+				11031C991A8DCEEE00FD3830 /* AppCodaFoodPin */,
+				11031CAF1A8DCEEE00FD3830 /* AppCodaFoodPinTests */,
+				11031C981A8DCEEE00FD3830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11031C981A8DCEEE00FD3830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11031C971A8DCEEE00FD3830 /* AppCodaFoodPin.app */,
+				11031CAC1A8DCEEE00FD3830 /* AppCodaFoodPinTests.xctest */,
+				118B21361AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex */,
+				118B21431AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11031C991A8DCEEE00FD3830 /* AppCodaFoodPin */ = {
+			isa = PBXGroup;
+			children = (
+				11031C9C1A8DCEEE00FD3830 /* AppDelegate.swift */,
+				114FB17E1A9AC4AC00AFDFFB /* FoodPin.xcdatamodeld */,
+				11031CA01A8DCEEE00FD3830 /* Main.storyboard */,
+				1160FE5C1A997D8600D2E7B0 /* AddTableViewController.swift */,
+				114063A01A98D1EF00BEA722 /* MapViewController.swift */,
+				11F412501A92D3B200378550 /* DetailTableViewCell.swift */,
+				11613B511A8FF78D00C39769 /* DetailViewController.swift */,
+				11C08D851A8DD4E20006B3D2 /* CustomTableViewCell.swift */,
+				11C08D871A8DD7940006B3D2 /* CustomTableViewController.swift */,
+				11BCCC281A90309F00DD8AB0 /* Restaurant.swift */,
+				114FB3991A96DCFC00450024 /* ShareViewController.swift */,
+				114FB3971A96D20700450024 /* ReviewViewController.swift */,
+				11031CA31A8DCEEE00FD3830 /* Images.xcassets */,
+				11031CA51A8DCEEE00FD3830 /* LaunchScreen.xib */,
+				11031C9A1A8DCEEE00FD3830 /* Supporting Files */,
+				11BA1DE01A9FB94A008D9D4C /* AppCodaFoodPin-Bridging-Header.h */,
+			);
+			path = AppCodaFoodPin;
+			sourceTree = "<group>";
+		};
+		11031C9A1A8DCEEE00FD3830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11031C9B1A8DCEEE00FD3830 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11031CAF1A8DCEEE00FD3830 /* AppCodaFoodPinTests */ = {
+			isa = PBXGroup;
+			children = (
+				11031CB21A8DCEEE00FD3830 /* AppCodaFoodPinTests.swift */,
+				11031CB01A8DCEEE00FD3830 /* Supporting Files */,
+			);
+			path = AppCodaFoodPinTests;
+			sourceTree = "<group>";
+		};
+		11031CB01A8DCEEE00FD3830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11031CB11A8DCEEE00FD3830 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11031C961A8DCEEE00FD3830 /* AppCodaFoodPin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11031CB61A8DCEEE00FD3830 /* Build configuration list for PBXNativeTarget "AppCodaFoodPin" */;
+			buildPhases = (
+				11031C931A8DCEEE00FD3830 /* Sources */,
+				11031C941A8DCEEE00FD3830 /* Frameworks */,
+				11031C951A8DCEEE00FD3830 /* Resources */,
+				118B21581AAEAE9400FDFC0C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118B21501AAEAE9400FDFC0C /* PBXTargetDependency */,
+			);
+			name = AppCodaFoodPin;
+			productName = AppCodaFoodPin;
+			productReference = 11031C971A8DCEEE00FD3830 /* AppCodaFoodPin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11031CAB1A8DCEEE00FD3830 /* AppCodaFoodPinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11031CB91A8DCEEE00FD3830 /* Build configuration list for PBXNativeTarget "AppCodaFoodPinTests" */;
+			buildPhases = (
+				11031CA81A8DCEEE00FD3830 /* Sources */,
+				11031CA91A8DCEEE00FD3830 /* Frameworks */,
+				11031CAA1A8DCEEE00FD3830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11031CAE1A8DCEEE00FD3830 /* PBXTargetDependency */,
+			);
+			name = AppCodaFoodPinTests;
+			productName = AppCodaFoodPinTests;
+			productReference = 11031CAC1A8DCEEE00FD3830 /* AppCodaFoodPinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		118B21351AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118B21571AAEAE9400FDFC0C /* Build configuration list for PBXNativeTarget "AppCodaFoodPin WatchKit Extension" */;
+			buildPhases = (
+				118B21321AAEAE9400FDFC0C /* Sources */,
+				118B21331AAEAE9400FDFC0C /* Frameworks */,
+				118B21341AAEAE9400FDFC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118B21461AAEAE9400FDFC0C /* PBXTargetDependency */,
+			);
+			name = "AppCodaFoodPin WatchKit Extension";
+			productName = "AppCodaFoodPin WatchKit Extension";
+			productReference = 118B21361AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		118B21421AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118B21561AAEAE9400FDFC0C /* Build configuration list for PBXNativeTarget "AppCodaFoodPin WatchKit App" */;
+			buildPhases = (
+				118B21411AAEAE9400FDFC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCodaFoodPin WatchKit App";
+			productName = "AppCodaFoodPin WatchKit App";
+			productReference = 118B21431AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11031C8F1A8DCEEE00FD3830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					11031C961A8DCEEE00FD3830 = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					11031CAB1A8DCEEE00FD3830 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 11031C961A8DCEEE00FD3830;
+					};
+					118B21351AAEAE9400FDFC0C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					118B21421AAEAE9400FDFC0C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 11031C921A8DCEEE00FD3830 /* Build configuration list for PBXProject "AppCodaFoodPin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11031C8E1A8DCEEE00FD3830;
+			productRefGroup = 11031C981A8DCEEE00FD3830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11031C961A8DCEEE00FD3830 /* AppCodaFoodPin */,
+				11031CAB1A8DCEEE00FD3830 /* AppCodaFoodPinTests */,
+				118B21351AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension */,
+				118B21421AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11031C951A8DCEEE00FD3830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11031CA21A8DCEEE00FD3830 /* Main.storyboard in Resources */,
+				11031CA71A8DCEEE00FD3830 /* LaunchScreen.xib in Resources */,
+				11031CA41A8DCEEE00FD3830 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11031CAA1A8DCEEE00FD3830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B21341AAEAE9400FDFC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B21441AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B21411AAEAE9400FDFC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11031C931A8DCEEE00FD3830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F412511A92D3B200378550 /* DetailTableViewCell.swift in Sources */,
+				114FB1801A9AC4AC00AFDFFB /* FoodPin.xcdatamodeld in Sources */,
+				11BCCC291A90309F00DD8AB0 /* Restaurant.swift in Sources */,
+				114FB3981A96D20700450024 /* ReviewViewController.swift in Sources */,
+				11C08D861A8DD4E20006B3D2 /* CustomTableViewCell.swift in Sources */,
+				114063A11A98D1EF00BEA722 /* MapViewController.swift in Sources */,
+				11C08D881A8DD7940006B3D2 /* CustomTableViewController.swift in Sources */,
+				11031C9D1A8DCEEE00FD3830 /* AppDelegate.swift in Sources */,
+				114FB39A1A96DCFC00450024 /* ShareViewController.swift in Sources */,
+				11613B521A8FF78D00C39769 /* DetailViewController.swift in Sources */,
+				1160FE5D1A997D8600D2E7B0 /* AddTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11031CA81A8DCEEE00FD3830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11031CB31A8DCEEE00FD3830 /* AppCodaFoodPinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B21321AAEAE9400FDFC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11031CAE1A8DCEEE00FD3830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11031C961A8DCEEE00FD3830 /* AppCodaFoodPin */;
+			targetProxy = 11031CAD1A8DCEEE00FD3830 /* PBXContainerItemProxy */;
+		};
+		118B21461AAEAE9400FDFC0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118B21421AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit App */;
+			targetProxy = 118B21451AAEAE9400FDFC0C /* PBXContainerItemProxy */;
+		};
+		118B21501AAEAE9400FDFC0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118B21351AAEAE9400FDFC0C /* AppCodaFoodPin WatchKit Extension */;
+			targetProxy = 118B214F1AAEAE9400FDFC0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11031CA01A8DCEEE00FD3830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11031CA11A8DCEEE00FD3830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11031CA51A8DCEEE00FD3830 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11031CA61A8DCEEE00FD3830 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11031CB41A8DCEEE00FD3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11031CB51A8DCEEE00FD3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11031CB71A8DCEEE00FD3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AppCodaFoodPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppCodaFoodPin/AppCodaFoodPin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11031CB81A8DCEEE00FD3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AppCodaFoodPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppCodaFoodPin/AppCodaFoodPin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		11031CBA1A8DCEEE00FD3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppCodaFoodPinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCodaFoodPin.app/AppCodaFoodPin";
+			};
+			name = Debug;
+		};
+		11031CBB1A8DCEEE00FD3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppCodaFoodPinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCodaFoodPin.app/AppCodaFoodPin";
+			};
+			name = Release;
+		};
+		118B21521AAEAE9400FDFC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppCodaFoodPin WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		118B21531AAEAE9400FDFC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "AppCodaFoodPin WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		118B21541AAEAE9400FDFC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AppCodaFoodPin_WatchKit_Extension;
+				INFOPLIST_FILE = "AppCodaFoodPin WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		118B21551AAEAE9400FDFC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = AppCodaFoodPin_WatchKit_Extension;
+				INFOPLIST_FILE = "AppCodaFoodPin WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11031C921A8DCEEE00FD3830 /* Build configuration list for PBXProject "AppCodaFoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11031CB41A8DCEEE00FD3830 /* Debug */,
+				11031CB51A8DCEEE00FD3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11031CB61A8DCEEE00FD3830 /* Build configuration list for PBXNativeTarget "AppCodaFoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11031CB71A8DCEEE00FD3830 /* Debug */,
+				11031CB81A8DCEEE00FD3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11031CB91A8DCEEE00FD3830 /* Build configuration list for PBXNativeTarget "AppCodaFoodPinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11031CBA1A8DCEEE00FD3830 /* Debug */,
+				11031CBB1A8DCEEE00FD3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118B21561AAEAE9400FDFC0C /* Build configuration list for PBXNativeTarget "AppCodaFoodPin WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B21541AAEAE9400FDFC0C /* Debug */,
+				118B21551AAEAE9400FDFC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118B21571AAEAE9400FDFC0C /* Build configuration list for PBXNativeTarget "AppCodaFoodPin WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B21521AAEAE9400FDFC0C /* Debug */,
+				118B21531AAEAE9400FDFC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		114FB17E1A9AC4AC00AFDFFB /* FoodPin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				114FB17F1A9AC4AC00AFDFFB /* FoodPin.xcdatamodel */,
+			);
+			currentVersion = 114FB17F1A9AC4AC00AFDFFB /* FoodPin.xcdatamodel */;
+			path = FoodPin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11031C8F1A8DCEEE00FD3830 /* Project object */;
+}

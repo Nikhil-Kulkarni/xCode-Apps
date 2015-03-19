@@ -26,7 +26,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         player = SKSpriteNode(imageNamed: "shuttle")
         player.position = CGPoint(x: self.frame.width/2, y: player.size.height/2 + 20)
         self.addChild(player)
-        self.physicsWorld.gravity = CGVector(0, 0)
+        self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         self.physicsWorld.contactDelegate = self
         
     }
@@ -39,10 +39,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         var alien = SKSpriteNode(imageNamed: "alien.png")
         alien.physicsBody = SKPhysicsBody(rectangleOfSize: alien.size)
-        alien.physicsBody.dynamic = true
-        alien.physicsBody.categoryBitMask = alienCategory
-        alien.physicsBody.contactTestBitMask = photonTorpedoCategory
-        alien.physicsBody.collisionBitMask = 0
+        alien.physicsBody?.dynamic = true
+        alien.physicsBody?.categoryBitMask = alienCategory
+        alien.physicsBody?.contactTestBitMask = photonTorpedoCategory
+        alien.physicsBody?.collisionBitMask = 0
         
         let minX = alien.size.width/2
         let maxX = self.frame.size.width - alien.size.width/2
@@ -82,7 +82,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
-    override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!)  {
+    override func touchesEnded(touches: NSSet, withEvent event: UIEvent)  {
         
         self.runAction(SKAction.playSoundFileNamed("torpedo.mp3", waitForCompletion: false))
         var touch: UITouch = touches.anyObject() as UITouch
@@ -91,11 +91,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         var torpedo: SKSpriteNode = SKSpriteNode(imageNamed: "torpedo");
         torpedo.position = player.position
         torpedo.physicsBody = SKPhysicsBody(circleOfRadius: torpedo.size.width/2)
-        torpedo.physicsBody.dynamic = true
-        torpedo.physicsBody.categoryBitMask = photonTorpedoCategory
-        torpedo.physicsBody.contactTestBitMask = alienCategory
-        torpedo.physicsBody.collisionBitMask = 0
-        torpedo.physicsBody.usesPreciseCollisionDetection = true
+        torpedo.physicsBody?.dynamic = true
+        torpedo.physicsBody?.categoryBitMask = photonTorpedoCategory
+        torpedo.physicsBody?.contactTestBitMask = alienCategory
+        torpedo.physicsBody?.collisionBitMask = 0
+        torpedo.physicsBody?.usesPreciseCollisionDetection = true
         
         var offset:CGPoint = vecSub(location, torpedo.position)
         if(offset.y < 0) {
@@ -107,6 +107,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         var direction:CGPoint = vecNormalize(offset)
         var shotLength:CGPoint = vecMult(direction, 1000)
         var finalDestination: CGPoint = vecAdd(shotLength, torpedo.position)
+        print(finalDestination)
         
         let velocity = 568/1
         let moveDuration: Float = Float(Float(self.size.width) / Float(velocity))

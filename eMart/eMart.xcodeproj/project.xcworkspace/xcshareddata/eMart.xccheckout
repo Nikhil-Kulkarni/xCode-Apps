@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0C85F71-BFC8-4139-A473-B6B9B06381E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eMart</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C0FA59D39D3A31448639E2AEA8548D307AF259B</key>
+		<string>https://github.com/Nikhil-Kulkarni/xCode-Apps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eMart/eMart.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C0FA59D39D3A31448639E2AEA8548D307AF259B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Nikhil-Kulkarni/xCode-Apps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C0FA59D39D3A31448639E2AEA8548D307AF259B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C0FA59D39D3A31448639E2AEA8548D307AF259B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xCode%20Apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
