@@ -14,6 +14,8 @@
 		1122CAC81ABA37B700B37535 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAC71ABA37B700B37535 /* Images.xcassets */; };
 		1122CACB1ABA37B700B37535 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAC91ABA37B700B37535 /* LaunchScreen.xib */; };
 		1122CAD71ABA37B700B37535 /* eMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CAD61ABA37B700B37535 /* eMartTests.swift */; };
+		1122CAE51ABB441D00B37535 /* kangamart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAE41ABB441D00B37535 /* kangamart.png */; };
+		1122CAE71ABB44D800B37535 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAE61ABB44D800B37535 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		1122CAD01ABA37B700B37535 /* eMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1122CAD51ABA37B700B37535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1122CAD61ABA37B700B37535 /* eMartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMartTests.swift; sourceTree = "<group>"; };
+		1122CAE41ABB441D00B37535 /* kangamart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kangamart.png; sourceTree = "<group>"; };
+		1122CAE61ABB44D800B37535 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		1122CABB1ABA37B700B37535 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1122CAE41ABB441D00B37535 /* kangamart.png */,
+				1122CAE61ABB44D800B37535 /* background.jpg */,
 				1122CABC1ABA37B700B37535 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1122CAC61ABA37B700B37535 /* Main.storyboard in Resources */,
+				1122CAE71ABB44D800B37535 /* background.jpg in Resources */,
 				1122CACB1ABA37B700B37535 /* LaunchScreen.xib in Resources */,
+				1122CAE51ABB441D00B37535 /* kangamart.png in Resources */,
 				1122CAC81ABA37B700B37535 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				1122CADC1ABA37B700B37535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1122CADD1ABA37B700B37535 /* Build configuration list for PBXNativeTarget "eMartTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				1122CADF1ABA37B700B37535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
