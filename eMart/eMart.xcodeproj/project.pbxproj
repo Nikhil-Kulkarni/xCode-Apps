@@ -16,6 +16,19 @@
 		1122CAD71ABA37B700B37535 /* eMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CAD61ABA37B700B37535 /* eMartTests.swift */; };
 		1122CAE51ABB441D00B37535 /* kangamart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAE41ABB441D00B37535 /* kangamart.png */; };
 		1122CAE71ABB44D800B37535 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1122CAE61ABB44D800B37535 /* background.jpg */; };
+		1122CAE91ABD356700B37535 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAE81ABD356700B37535 /* Firebase.framework */; };
+		1122CAEB1ABD357A00B37535 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAEA1ABD357A00B37535 /* libc++.dylib */; };
+		1122CAED1ABD358300B37535 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAEC1ABD358300B37535 /* libicucore.dylib */; };
+		1122CAEF1ABD358D00B37535 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAEE1ABD358D00B37535 /* CFNetwork.framework */; };
+		1122CAF11ABD359500B37535 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAF01ABD359500B37535 /* Security.framework */; };
+		1122CAF31ABD359E00B37535 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1122CAF21ABD359E00B37535 /* SystemConfiguration.framework */; };
+		1122CAF81ABD479400B37535 /* SelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CAF71ABD479400B37535 /* SelectionController.swift */; };
+		1122CAFA1ABD94E400B37535 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CAF91ABD94E400B37535 /* SignUpController.swift */; };
+		1122CB001ABDBDF500B37535 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CAFF1ABDBDF500B37535 /* BuyViewController.swift */; };
+		1122CB021ABDC05400B37535 /* creditcards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1122CB011ABDC05400B37535 /* creditcards.jpg */; };
+		1122CB041ABDEFA000B37535 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122CB031ABDEFA000B37535 /* DetailViewController.swift */; };
+		1146CC8E1ABE383600D5DD76 /* DeliverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146CC8D1ABE383600D5DD76 /* DeliverTableViewController.swift */; };
+		11B9ABCC1ABE65FF00B477AB /* KangaMartIcon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ABCB1ABE65FF00B477AB /* KangaMartIcon2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +55,20 @@
 		1122CAD61ABA37B700B37535 /* eMartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMartTests.swift; sourceTree = "<group>"; };
 		1122CAE41ABB441D00B37535 /* kangamart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kangamart.png; sourceTree = "<group>"; };
 		1122CAE61ABB44D800B37535 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		1122CAE81ABD356700B37535 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		1122CAEA1ABD357A00B37535 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1122CAEC1ABD358300B37535 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1122CAEE1ABD358D00B37535 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1122CAF01ABD359500B37535 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1122CAF21ABD359E00B37535 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1122CAF41ABD35C700B37535 /* eMart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eMart-Bridging-Header.h"; sourceTree = "<group>"; };
+		1122CAF71ABD479400B37535 /* SelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionController.swift; sourceTree = "<group>"; };
+		1122CAF91ABD94E400B37535 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		1122CAFF1ABDBDF500B37535 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		1122CB011ABDC05400B37535 /* creditcards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creditcards.jpg; sourceTree = "<group>"; };
+		1122CB031ABDEFA000B37535 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1146CC8D1ABE383600D5DD76 /* DeliverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliverTableViewController.swift; sourceTree = "<group>"; };
+		11B9ABCB1ABE65FF00B477AB /* KangaMartIcon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KangaMartIcon2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1122CAF31ABD359E00B37535 /* SystemConfiguration.framework in Frameworks */,
+				1122CAF11ABD359500B37535 /* Security.framework in Frameworks */,
+				1122CAEF1ABD358D00B37535 /* CFNetwork.framework in Frameworks */,
+				1122CAED1ABD358300B37535 /* libicucore.dylib in Frameworks */,
+				1122CAEB1ABD357A00B37535 /* libc++.dylib in Frameworks */,
+				1122CAE91ABD356700B37535 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,12 @@
 		1122CAAF1ABA37B700B37535 = {
 			isa = PBXGroup;
 			children = (
+				1122CAF21ABD359E00B37535 /* SystemConfiguration.framework */,
+				1122CAF01ABD359500B37535 /* Security.framework */,
+				1122CAEE1ABD358D00B37535 /* CFNetwork.framework */,
+				1122CAEC1ABD358300B37535 /* libicucore.dylib */,
+				1122CAEA1ABD357A00B37535 /* libc++.dylib */,
+				1122CAE81ABD356700B37535 /* Firebase.framework */,
 				1122CABA1ABA37B700B37535 /* eMart */,
 				1122CAD31ABA37B700B37535 /* eMartTests */,
 				1122CAB91ABA37B700B37535 /* Products */,
@@ -86,10 +125,16 @@
 				1122CABD1ABA37B700B37535 /* AppDelegate.swift */,
 				1122CAC21ABA37B700B37535 /* ViewController.swift */,
 				1122CAC41ABA37B700B37535 /* Main.storyboard */,
+				1122CB031ABDEFA000B37535 /* DetailViewController.swift */,
+				1122CAFF1ABDBDF500B37535 /* BuyViewController.swift */,
+				1146CC8D1ABE383600D5DD76 /* DeliverTableViewController.swift */,
+				1122CAF91ABD94E400B37535 /* SignUpController.swift */,
+				1122CAF71ABD479400B37535 /* SelectionController.swift */,
 				1122CAC71ABA37B700B37535 /* Images.xcassets */,
 				1122CAC91ABA37B700B37535 /* LaunchScreen.xib */,
 				1122CABF1ABA37B700B37535 /* eMart.xcdatamodeld */,
 				1122CABB1ABA37B700B37535 /* Supporting Files */,
+				1122CAF41ABD35C700B37535 /* eMart-Bridging-Header.h */,
 			);
 			path = eMart;
 			sourceTree = "<group>";
@@ -97,6 +142,8 @@
 		1122CABB1ABA37B700B37535 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1122CB011ABDC05400B37535 /* creditcards.jpg */,
+				11B9ABCB1ABE65FF00B477AB /* KangaMartIcon2.jpg */,
 				1122CAE41ABB441D00B37535 /* kangamart.png */,
 				1122CAE61ABB44D800B37535 /* background.jpg */,
 				1122CABC1ABA37B700B37535 /* Info.plist */,
@@ -203,7 +250,9 @@
 			files = (
 				1122CAC61ABA37B700B37535 /* Main.storyboard in Resources */,
 				1122CAE71ABB44D800B37535 /* background.jpg in Resources */,
+				1122CB021ABDC05400B37535 /* creditcards.jpg in Resources */,
 				1122CACB1ABA37B700B37535 /* LaunchScreen.xib in Resources */,
+				11B9ABCC1ABE65FF00B477AB /* KangaMartIcon2.jpg in Resources */,
 				1122CAE51ABB441D00B37535 /* kangamart.png in Resources */,
 				1122CAC81ABA37B700B37535 /* Images.xcassets in Resources */,
 			);
@@ -223,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1122CB041ABDEFA000B37535 /* DetailViewController.swift in Sources */,
+				1122CAFA1ABD94E400B37535 /* SignUpController.swift in Sources */,
+				1146CC8E1ABE383600D5DD76 /* DeliverTableViewController.swift in Sources */,
+				1122CB001ABDBDF500B37535 /* BuyViewController.swift in Sources */,
 				1122CAC31ABA37B700B37535 /* ViewController.swift in Sources */,
 				1122CABE1ABA37B700B37535 /* AppDelegate.swift in Sources */,
+				1122CAF81ABD479400B37535 /* SelectionController.swift in Sources */,
 				1122CAC11ABA37B700B37535 /* eMart.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,9 +402,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = eMart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eMart/eMart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -358,9 +421,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = eMart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eMart/eMart-Bridging-Header.h";
 			};
 			name = Release;
 		};

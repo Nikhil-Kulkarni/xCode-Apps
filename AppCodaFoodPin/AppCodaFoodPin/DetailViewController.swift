@@ -35,6 +35,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.estimatedRowHeight = 36.0
         tableView.rowHeight = UITableViewAutomaticDimension
+//        self.navigationController?.applicationFinishedRestoringState()
 
         // Do any additional setup after loading the view.
     }
