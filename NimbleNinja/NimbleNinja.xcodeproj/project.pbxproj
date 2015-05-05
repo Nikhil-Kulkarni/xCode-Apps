@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119FF9D81AF55413000B7C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9D71AF55413000B7C9F /* AppDelegate.swift */; };
+		119FF9DC1AF55413000B7C9F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9DB1AF55413000B7C9F /* GameScene.swift */; };
+		119FF9DE1AF55413000B7C9F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9DD1AF55413000B7C9F /* GameViewController.swift */; };
+		119FF9E11AF55413000B7C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119FF9DF1AF55413000B7C9F /* Main.storyboard */; };
+		119FF9E31AF55413000B7C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119FF9E21AF55413000B7C9F /* Images.xcassets */; };
+		119FF9E61AF55413000B7C9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119FF9E41AF55413000B7C9F /* LaunchScreen.xib */; };
+		119FF9F21AF55413000B7C9F /* NimbleNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9F11AF55413000B7C9F /* NimbleNinjaTests.swift */; };
+		119FF9FC1AF559DA000B7C9F /* NKMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9FB1AF559DA000B7C9F /* NKMovingGround.swift */; };
+		119FF9FE1AF672D1000B7C9F /* NKHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9FD1AF672D1000B7C9F /* NKHero.swift */; };
+		119FFA001AF6A420000B7C9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FF9FF1AF6A420000B7C9F /* Constants.swift */; };
+		119FFA021AF6ABE3000B7C9F /* NKCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FFA011AF6ABE3000B7C9F /* NKCloudGenerator.swift */; };
+		119FFA041AF6BBDF000B7C9F /* NKCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FFA031AF6BBDF000B7C9F /* NKCloud.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		119FF9EC1AF55413000B7C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119FF9CA1AF55413000B7C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119FF9D11AF55413000B7C9F;
+			remoteInfo = NimbleNinja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		119FF9D21AF55413000B7C9F /* NimbleNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		119FF9D61AF55413000B7C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119FF9D71AF55413000B7C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		119FF9DB1AF55413000B7C9F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		119FF9DD1AF55413000B7C9F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		119FF9E01AF55413000B7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		119FF9E21AF55413000B7C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		119FF9E51AF55413000B7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		119FF9EB1AF55413000B7C9F /* NimbleNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		119FF9F01AF55413000B7C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119FF9F11AF55413000B7C9F /* NimbleNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleNinjaTests.swift; sourceTree = "<group>"; };
+		119FF9FB1AF559DA000B7C9F /* NKMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKMovingGround.swift; sourceTree = "<group>"; };
+		119FF9FD1AF672D1000B7C9F /* NKHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKHero.swift; sourceTree = "<group>"; };
+		119FF9FF1AF6A420000B7C9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		119FFA011AF6ABE3000B7C9F /* NKCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKCloudGenerator.swift; sourceTree = "<group>"; };
+		119FFA031AF6BBDF000B7C9F /* NKCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKCloud.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		119FF9CF1AF55413000B7C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119FF9E81AF55413000B7C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119FF9C91AF55413000B7C9F = {
+			isa = PBXGroup;
+			children = (
+				119FF9D41AF55413000B7C9F /* NimbleNinja */,
+				119FF9EE1AF55413000B7C9F /* NimbleNinjaTests */,
+				119FF9D31AF55413000B7C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		119FF9D31AF55413000B7C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119FF9D21AF55413000B7C9F /* NimbleNinja.app */,
+				119FF9EB1AF55413000B7C9F /* NimbleNinjaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		119FF9D41AF55413000B7C9F /* NimbleNinja */ = {
+			isa = PBXGroup;
+			children = (
+				119FF9D71AF55413000B7C9F /* AppDelegate.swift */,
+				119FF9FF1AF6A420000B7C9F /* Constants.swift */,
+				119FF9DB1AF55413000B7C9F /* GameScene.swift */,
+				119FFA051AF6BBEC000B7C9F /* Cloud Generation */,
+				119FF9FD1AF672D1000B7C9F /* NKHero.swift */,
+				119FF9FB1AF559DA000B7C9F /* NKMovingGround.swift */,
+				119FF9DD1AF55413000B7C9F /* GameViewController.swift */,
+				119FF9DF1AF55413000B7C9F /* Main.storyboard */,
+				119FF9E21AF55413000B7C9F /* Images.xcassets */,
+				119FF9E41AF55413000B7C9F /* LaunchScreen.xib */,
+				119FF9D51AF55413000B7C9F /* Supporting Files */,
+			);
+			path = NimbleNinja;
+			sourceTree = "<group>";
+		};
+		119FF9D51AF55413000B7C9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				119FF9D61AF55413000B7C9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		119FF9EE1AF55413000B7C9F /* NimbleNinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				119FF9F11AF55413000B7C9F /* NimbleNinjaTests.swift */,
+				119FF9EF1AF55413000B7C9F /* Supporting Files */,
+			);
+			path = NimbleNinjaTests;
+			sourceTree = "<group>";
+		};
+		119FF9EF1AF55413000B7C9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				119FF9F01AF55413000B7C9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		119FFA051AF6BBEC000B7C9F /* Cloud Generation */ = {
+			isa = PBXGroup;
+			children = (
+				119FFA011AF6ABE3000B7C9F /* NKCloudGenerator.swift */,
+				119FFA031AF6BBDF000B7C9F /* NKCloud.swift */,
+			);
+			name = "Cloud Generation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		119FF9D11AF55413000B7C9F /* NimbleNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119FF9F51AF55413000B7C9F /* Build configuration list for PBXNativeTarget "NimbleNinja" */;
+			buildPhases = (
+				119FF9CE1AF55413000B7C9F /* Sources */,
+				119FF9CF1AF55413000B7C9F /* Frameworks */,
+				119FF9D01AF55413000B7C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleNinja;
+			productName = NimbleNinja;
+			productReference = 119FF9D21AF55413000B7C9F /* NimbleNinja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		119FF9EA1AF55413000B7C9F /* NimbleNinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119FF9F81AF55413000B7C9F /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */;
+			buildPhases = (
+				119FF9E71AF55413000B7C9F /* Sources */,
+				119FF9E81AF55413000B7C9F /* Frameworks */,
+				119FF9E91AF55413000B7C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119FF9ED1AF55413000B7C9F /* PBXTargetDependency */,
+			);
+			name = NimbleNinjaTests;
+			productName = NimbleNinjaTests;
+			productReference = 119FF9EB1AF55413000B7C9F /* NimbleNinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		119FF9CA1AF55413000B7C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					119FF9D11AF55413000B7C9F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					119FF9EA1AF55413000B7C9F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 119FF9D11AF55413000B7C9F;
+					};
+				};
+			};
+			buildConfigurationList = 119FF9CD1AF55413000B7C9F /* Build configuration list for PBXProject "NimbleNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 119FF9C91AF55413000B7C9F;
+			productRefGroup = 119FF9D31AF55413000B7C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				119FF9D11AF55413000B7C9F /* NimbleNinja */,
+				119FF9EA1AF55413000B7C9F /* NimbleNinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		119FF9D01AF55413000B7C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119FF9E61AF55413000B7C9F /* LaunchScreen.xib in Resources */,
+				119FF9E31AF55413000B7C9F /* Images.xcassets in Resources */,
+				119FF9E11AF55413000B7C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119FF9E91AF55413000B7C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		119FF9CE1AF55413000B7C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119FFA041AF6BBDF000B7C9F /* NKCloud.swift in Sources */,
+				119FF9DC1AF55413000B7C9F /* GameScene.swift in Sources */,
+				119FF9DE1AF55413000B7C9F /* GameViewController.swift in Sources */,
+				119FF9D81AF55413000B7C9F /* AppDelegate.swift in Sources */,
+				119FF9FC1AF559DA000B7C9F /* NKMovingGround.swift in Sources */,
+				119FF9FE1AF672D1000B7C9F /* NKHero.swift in Sources */,
+				119FFA021AF6ABE3000B7C9F /* NKCloudGenerator.swift in Sources */,
+				119FFA001AF6A420000B7C9F /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119FF9E71AF55413000B7C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119FF9F21AF55413000B7C9F /* NimbleNinjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		119FF9ED1AF55413000B7C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119FF9D11AF55413000B7C9F /* NimbleNinja */;
+			targetProxy = 119FF9EC1AF55413000B7C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		119FF9DF1AF55413000B7C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				119FF9E01AF55413000B7C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		119FF9E41AF55413000B7C9F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				119FF9E51AF55413000B7C9F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		119FF9F31AF55413000B7C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		119FF9F41AF55413000B7C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		119FF9F61AF55413000B7C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimbleNinja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		119FF9F71AF55413000B7C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimbleNinja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		119FF9F91AF55413000B7C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NimbleNinjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleNinja.app/NimbleNinja";
+			};
+			name = Debug;
+		};
+		119FF9FA1AF55413000B7C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NimbleNinjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleNinja.app/NimbleNinja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		119FF9CD1AF55413000B7C9F /* Build configuration list for PBXProject "NimbleNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119FF9F31AF55413000B7C9F /* Debug */,
+				119FF9F41AF55413000B7C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119FF9F51AF55413000B7C9F /* Build configuration list for PBXNativeTarget "NimbleNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119FF9F61AF55413000B7C9F /* Debug */,
+				119FF9F71AF55413000B7C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		119FF9F81AF55413000B7C9F /* Build configuration list for PBXNativeTarget "NimbleNinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119FF9F91AF55413000B7C9F /* Debug */,
+				119FF9FA1AF55413000B7C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 119FF9CA1AF55413000B7C9F /* Project object */;
+}
