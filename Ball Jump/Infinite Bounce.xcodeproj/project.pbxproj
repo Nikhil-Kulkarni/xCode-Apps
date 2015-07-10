@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11587A731B2DFF9200E0F959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A721B2DFF9200E0F959 /* AppDelegate.swift */; };
+		11587A751B2DFF9200E0F959 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11587A741B2DFF9200E0F959 /* GameScene.sks */; };
+		11587A771B2DFF9200E0F959 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A761B2DFF9200E0F959 /* GameScene.swift */; };
+		11587A791B2DFF9200E0F959 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A781B2DFF9200E0F959 /* GameViewController.swift */; };
+		11587A7C1B2DFF9200E0F959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11587A7A1B2DFF9200E0F959 /* Main.storyboard */; };
+		11587A7E1B2DFF9200E0F959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11587A7D1B2DFF9200E0F959 /* Assets.xcassets */; };
+		11587A8C1B2DFF9200E0F959 /* Ball_JumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A8B1B2DFF9200E0F959 /* Ball_JumpTests.swift */; };
+		11587A971B2E1D9200E0F959 /* NKBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A961B2E1D9200E0F959 /* NKBall.swift */; };
+		11587A991B2E209E00E0F959 /* NKGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A981B2E209E00E0F959 /* NKGround.swift */; };
+		11587A9B1B307D6800E0F959 /* SDevFlatColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11587A9A1B307D6800E0F959 /* SDevFlatColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11587A881B2DFF9200E0F959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11587A671B2DFF9200E0F959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11587A6E1B2DFF9200E0F959;
+			remoteInfo = "Ball Jump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11587A6F1B2DFF9200E0F959 /* Infinite Bounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Bounce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11587A721B2DFF9200E0F959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11587A741B2DFF9200E0F959 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		11587A761B2DFF9200E0F959 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		11587A781B2DFF9200E0F959 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		11587A7B1B2DFF9200E0F959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11587A7D1B2DFF9200E0F959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11587A821B2DFF9200E0F959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11587A871B2DFF9200E0F959 /* Infinite Bounce.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infinite Bounce.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11587A8B1B2DFF9200E0F959 /* Ball_JumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_JumpTests.swift; sourceTree = "<group>"; };
+		11587A8D1B2DFF9200E0F959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11587A961B2E1D9200E0F959 /* NKBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKBall.swift; sourceTree = "<group>"; };
+		11587A981B2E209E00E0F959 /* NKGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKGround.swift; sourceTree = "<group>"; };
+		11587A9A1B307D6800E0F959 /* SDevFlatColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevFlatColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11587A6C1B2DFF9200E0F959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11587A841B2DFF9200E0F959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11587A661B2DFF9200E0F959 = {
+			isa = PBXGroup;
+			children = (
+				11587A711B2DFF9200E0F959 /* Ball Jump */,
+				11587A8A1B2DFF9200E0F959 /* Ball JumpTests */,
+				11587A701B2DFF9200E0F959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11587A701B2DFF9200E0F959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11587A6F1B2DFF9200E0F959 /* Infinite Bounce.app */,
+				11587A871B2DFF9200E0F959 /* Infinite Bounce.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11587A711B2DFF9200E0F959 /* Ball Jump */ = {
+			isa = PBXGroup;
+			children = (
+				11587A721B2DFF9200E0F959 /* AppDelegate.swift */,
+				11587A741B2DFF9200E0F959 /* GameScene.sks */,
+				11587A761B2DFF9200E0F959 /* GameScene.swift */,
+				11587A781B2DFF9200E0F959 /* GameViewController.swift */,
+				11587A961B2E1D9200E0F959 /* NKBall.swift */,
+				11587A981B2E209E00E0F959 /* NKGround.swift */,
+				11587A9A1B307D6800E0F959 /* SDevFlatColors.swift */,
+				11587A7A1B2DFF9200E0F959 /* Main.storyboard */,
+				11587A7D1B2DFF9200E0F959 /* Assets.xcassets */,
+				11587A821B2DFF9200E0F959 /* Info.plist */,
+			);
+			path = "Ball Jump";
+			sourceTree = "<group>";
+		};
+		11587A8A1B2DFF9200E0F959 /* Ball JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				11587A8B1B2DFF9200E0F959 /* Ball_JumpTests.swift */,
+				11587A8D1B2DFF9200E0F959 /* Info.plist */,
+			);
+			path = "Ball JumpTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11587A6E1B2DFF9200E0F959 /* Infinite Bounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11587A901B2DFF9200E0F959 /* Build configuration list for PBXNativeTarget "Infinite Bounce" */;
+			buildPhases = (
+				11587A6B1B2DFF9200E0F959 /* Sources */,
+				11587A6C1B2DFF9200E0F959 /* Frameworks */,
+				11587A6D1B2DFF9200E0F959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinite Bounce";
+			productName = "Ball Jump";
+			productReference = 11587A6F1B2DFF9200E0F959 /* Infinite Bounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11587A861B2DFF9200E0F959 /* Infinite BounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11587A931B2DFF9200E0F959 /* Build configuration list for PBXNativeTarget "Infinite BounceTests" */;
+			buildPhases = (
+				11587A831B2DFF9200E0F959 /* Sources */,
+				11587A841B2DFF9200E0F959 /* Frameworks */,
+				11587A851B2DFF9200E0F959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11587A891B2DFF9200E0F959 /* PBXTargetDependency */,
+			);
+			name = "Infinite BounceTests";
+			productName = "Ball JumpTests";
+			productReference = 11587A871B2DFF9200E0F959 /* Infinite Bounce.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11587A671B2DFF9200E0F959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					11587A6E1B2DFF9200E0F959 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4N3AGH4V26;
+					};
+					11587A861B2DFF9200E0F959 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 11587A6E1B2DFF9200E0F959;
+					};
+				};
+			};
+			buildConfigurationList = 11587A6A1B2DFF9200E0F959 /* Build configuration list for PBXProject "Infinite Bounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11587A661B2DFF9200E0F959;
+			productRefGroup = 11587A701B2DFF9200E0F959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11587A6E1B2DFF9200E0F959 /* Infinite Bounce */,
+				11587A861B2DFF9200E0F959 /* Infinite BounceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11587A6D1B2DFF9200E0F959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11587A751B2DFF9200E0F959 /* GameScene.sks in Resources */,
+				11587A7E1B2DFF9200E0F959 /* Assets.xcassets in Resources */,
+				11587A7C1B2DFF9200E0F959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11587A851B2DFF9200E0F959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11587A6B1B2DFF9200E0F959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11587A771B2DFF9200E0F959 /* GameScene.swift in Sources */,
+				11587A791B2DFF9200E0F959 /* GameViewController.swift in Sources */,
+				11587A731B2DFF9200E0F959 /* AppDelegate.swift in Sources */,
+				11587A991B2E209E00E0F959 /* NKGround.swift in Sources */,
+				11587A9B1B307D6800E0F959 /* SDevFlatColors.swift in Sources */,
+				11587A971B2E1D9200E0F959 /* NKBall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11587A831B2DFF9200E0F959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11587A8C1B2DFF9200E0F959 /* Ball_JumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11587A891B2DFF9200E0F959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11587A6E1B2DFF9200E0F959 /* Infinite Bounce */;
+			targetProxy = 11587A881B2DFF9200E0F959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11587A7A1B2DFF9200E0F959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11587A7B1B2DFF9200E0F959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11587A8E1B2DFF9200E0F959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11587A8F1B2DFF9200E0F959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11587A911B2DFF9200E0F959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Ball Jump/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilkulkarni.Ball-Jump";
+				PRODUCT_NAME = "Infinite Bounce";
+			};
+			name = Debug;
+		};
+		11587A921B2DFF9200E0F959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Ball Jump/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilkulkarni.Ball-Jump";
+				PRODUCT_NAME = "Infinite Bounce";
+			};
+			name = Release;
+		};
+		11587A941B2DFF9200E0F959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ball JumpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilkulkarni.Ball-JumpTests";
+				PRODUCT_NAME = "Infinite Bounce";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite Bounce.app/Infinite Bounce";
+			};
+			name = Debug;
+		};
+		11587A951B2DFF9200E0F959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ball JumpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilkulkarni.Ball-JumpTests";
+				PRODUCT_NAME = "Infinite Bounce";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite Bounce.app/Infinite Bounce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11587A6A1B2DFF9200E0F959 /* Build configuration list for PBXProject "Infinite Bounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11587A8E1B2DFF9200E0F959 /* Debug */,
+				11587A8F1B2DFF9200E0F959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11587A901B2DFF9200E0F959 /* Build configuration list for PBXNativeTarget "Infinite Bounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11587A911B2DFF9200E0F959 /* Debug */,
+				11587A921B2DFF9200E0F959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11587A931B2DFF9200E0F959 /* Build configuration list for PBXNativeTarget "Infinite BounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11587A941B2DFF9200E0F959 /* Debug */,
+				11587A951B2DFF9200E0F959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11587A671B2DFF9200E0F959 /* Project object */;
+}

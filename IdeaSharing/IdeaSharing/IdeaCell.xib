@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IdeaCell" rowHeight="90" id="KGk-i7-Jjw" customClass="IdeaCell" customModule="IdeaSharing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsT-Pk-TxW">
+                        <rect key="frame" x="415" y="35" width="70" height="20"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="GMI-GH-eYZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="18"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBD-yj-Q3V">
+                        <rect key="frame" x="434" y="58" width="32" height="32"/>
+                        <animations/>
+                        <state key="normal" image="downArrow">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="downVote:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Zmh-aW-XtS"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGN-E2-J6p">
+                        <rect key="frame" x="8" y="5" width="365" height="70"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLk-Cl-xb6">
+                        <rect key="frame" x="434" y="-5" width="32" height="32"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="CbA-W5-Lg0"/>
+                            <constraint firstAttribute="height" constant="32" id="gL2-O4-hgo"/>
+                        </constraints>
+                        <state key="normal" image="upArrow">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="upVote:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YVW-w5-1EY"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="XLk-Cl-xb6" firstAttribute="leading" secondItem="sGN-E2-J6p" secondAttribute="trailing" constant="61" id="00V-DW-Gcr"/>
+                    <constraint firstItem="dsT-Pk-TxW" firstAttribute="top" secondItem="XLk-Cl-xb6" secondAttribute="bottom" constant="8" symbolic="YES" id="0wf-ub-gVE"/>
+                    <constraint firstItem="XLk-Cl-xb6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-13" id="A00-TV-fXz"/>
+                    <constraint firstItem="XLk-Cl-xb6" firstAttribute="leading" secondItem="gBD-yj-Q3V" secondAttribute="leading" id="M1M-e0-lC1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dsT-Pk-TxW" secondAttribute="trailing" constant="-8" id="Qsy-7s-4ua"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gBD-yj-Q3V" secondAttribute="bottom" constant="-8.5" id="Vnw-Ef-mYP"/>
+                    <constraint firstItem="sGN-E2-J6p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="Wrl-E9-zYH"/>
+                    <constraint firstItem="XLk-Cl-xb6" firstAttribute="trailing" secondItem="gBD-yj-Q3V" secondAttribute="trailing" id="i8E-VV-1go"/>
+                    <constraint firstItem="dsT-Pk-TxW" firstAttribute="leading" secondItem="sGN-E2-J6p" secondAttribute="trailing" constant="42" id="lBL-em-dLW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sGN-E2-J6p" secondAttribute="bottom" constant="6.5" id="ujh-mh-31v"/>
+                    <constraint firstItem="sGN-E2-J6p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xe4-0G-LeR"/>
+                    <constraint firstItem="gBD-yj-Q3V" firstAttribute="top" secondItem="dsT-Pk-TxW" secondAttribute="bottom" constant="3" id="zAE-4h-HJv"/>
+                    <constraint firstItem="gBD-yj-Q3V" firstAttribute="centerX" secondItem="dsT-Pk-TxW" secondAttribute="centerX" id="ziX-fT-ibd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="ideaLabel" destination="sGN-E2-J6p" id="XLv-Cf-iwT"/>
+                <outlet property="upvoteCount" destination="dsT-Pk-TxW" id="p0S-Ot-5Gh"/>
+            </connections>
+            <point key="canvasLocation" x="384.5" y="253"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="downArrow" width="128" height="128"/>
+        <image name="upArrow" width="128" height="128"/>
+    </resources>
+</document>

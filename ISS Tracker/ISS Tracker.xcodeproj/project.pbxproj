@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1118B7E51B120DA400D7E286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B7E41B120DA400D7E286 /* AppDelegate.swift */; };
+		1118B7E71B120DA400D7E286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B7E61B120DA400D7E286 /* ViewController.swift */; };
+		1118B7EA1B120DA400D7E286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1118B7E81B120DA400D7E286 /* Main.storyboard */; };
+		1118B7EC1B120DA400D7E286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1118B7EB1B120DA400D7E286 /* Images.xcassets */; };
+		1118B7EF1B120DA400D7E286 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1118B7ED1B120DA400D7E286 /* LaunchScreen.xib */; };
+		1118B7FB1B120DA400D7E286 /* ISS_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B7FA1B120DA400D7E286 /* ISS_TrackerTests.swift */; };
+		1118B8071B1223C200D7E286 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8061B1223C200D7E286 /* GoogleMaps.framework */; };
+		1118B80B1B12241600D7E286 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1118B80A1B12241600D7E286 /* GoogleMaps.bundle */; };
+		1118B8181B12246200D7E286 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B80C1B12246200D7E286 /* AVFoundation.framework */; };
+		1118B8191B12246200D7E286 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B80D1B12246200D7E286 /* CoreData.framework */; };
+		1118B81A1B12246200D7E286 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B80E1B12246200D7E286 /* CoreLocation.framework */; };
+		1118B81B1B12246200D7E286 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B80F1B12246200D7E286 /* CoreText.framework */; };
+		1118B81C1B12246200D7E286 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8101B12246200D7E286 /* GLKit.framework */; };
+		1118B81D1B12246200D7E286 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8111B12246200D7E286 /* ImageIO.framework */; };
+		1118B81E1B12246200D7E286 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8121B12246200D7E286 /* libc++.dylib */; };
+		1118B81F1B12246200D7E286 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8131B12246200D7E286 /* libicucore.dylib */; };
+		1118B8201B12246200D7E286 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8141B12246200D7E286 /* libz.dylib */; };
+		1118B8211B12246200D7E286 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8151B12246200D7E286 /* OpenGLES.framework */; };
+		1118B8221B12246200D7E286 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8161B12246200D7E286 /* QuartzCore.framework */; };
+		1118B8231B12246200D7E286 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B8171B12246200D7E286 /* SystemConfiguration.framework */; };
+		1118B8271B12674000D7E286 /* MoreViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B8261B12674000D7E286 /* MoreViewControllerViewController.swift */; };
+		1118B8311B135C8600D7E286 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B8301B135C8600D7E286 /* InterfaceController.swift */; };
+		1118B8331B135C8600D7E286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1118B8321B135C8600D7E286 /* Images.xcassets */; };
+		1118B8371B135C8600D7E286 /* ISS Tracker WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1118B8361B135C8600D7E286 /* ISS Tracker WatchKit App.app */; };
+		1118B83F1B135C8600D7E286 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1118B83D1B135C8600D7E286 /* Interface.storyboard */; };
+		1118B8411B135C8600D7E286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1118B8401B135C8600D7E286 /* Images.xcassets */; };
+		1118B8441B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1118B82C1B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1118B84C1B13632E00D7E286 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1118B80E1B12246200D7E286 /* CoreLocation.framework */; };
+		1118B84E1B136A5E00D7E286 /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1118B84D1B136A5E00D7E286 /* MapInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1118B7F51B120DA400D7E286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1118B7D71B120DA400D7E286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1118B7DE1B120DA400D7E286;
+			remoteInfo = "ISS Tracker";
+		};
+		1118B8381B135C8600D7E286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1118B7D71B120DA400D7E286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1118B8351B135C8600D7E286;
+			remoteInfo = "ISS Tracker WatchKit App";
+		};
+		1118B8421B135C8600D7E286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1118B7D71B120DA400D7E286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1118B82B1B135C8600D7E286;
+			remoteInfo = "ISS Tracker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1118B84B1B135C8600D7E286 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1118B8441B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1118B7DF1B120DA400D7E286 /* ISS Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118B7E31B120DA400D7E286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1118B7E41B120DA400D7E286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1118B7E61B120DA400D7E286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1118B7E91B120DA400D7E286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1118B7EB1B120DA400D7E286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1118B7EE1B120DA400D7E286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1118B7F41B120DA400D7E286 /* ISS TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118B7F91B120DA400D7E286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1118B7FA1B120DA400D7E286 /* ISS_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS_TrackerTests.swift; sourceTree = "<group>"; };
+		1118B8061B1223C200D7E286 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		1118B80A1B12241600D7E286 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1118B80C1B12246200D7E286 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1118B80D1B12246200D7E286 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1118B80E1B12246200D7E286 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1118B80F1B12246200D7E286 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1118B8101B12246200D7E286 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1118B8111B12246200D7E286 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1118B8121B12246200D7E286 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1118B8131B12246200D7E286 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1118B8141B12246200D7E286 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1118B8151B12246200D7E286 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1118B8161B12246200D7E286 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1118B8171B12246200D7E286 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1118B8251B12259F00D7E286 /* ISS Tracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISS Tracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		1118B8261B12674000D7E286 /* MoreViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewControllerViewController.swift; sourceTree = "<group>"; };
+		1118B82C1B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ISS Tracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118B82F1B135C8600D7E286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1118B8301B135C8600D7E286 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1118B8321B135C8600D7E286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1118B8361B135C8600D7E286 /* ISS Tracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS Tracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118B83C1B135C8600D7E286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1118B83E1B135C8600D7E286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1118B8401B135C8600D7E286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1118B84D1B136A5E00D7E286 /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1118B7DC1B120DA400D7E286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B8181B12246200D7E286 /* AVFoundation.framework in Frameworks */,
+				1118B8191B12246200D7E286 /* CoreData.framework in Frameworks */,
+				1118B81A1B12246200D7E286 /* CoreLocation.framework in Frameworks */,
+				1118B81B1B12246200D7E286 /* CoreText.framework in Frameworks */,
+				1118B81C1B12246200D7E286 /* GLKit.framework in Frameworks */,
+				1118B81D1B12246200D7E286 /* ImageIO.framework in Frameworks */,
+				1118B81E1B12246200D7E286 /* libc++.dylib in Frameworks */,
+				1118B81F1B12246200D7E286 /* libicucore.dylib in Frameworks */,
+				1118B8201B12246200D7E286 /* libz.dylib in Frameworks */,
+				1118B8211B12246200D7E286 /* OpenGLES.framework in Frameworks */,
+				1118B8221B12246200D7E286 /* QuartzCore.framework in Frameworks */,
+				1118B8231B12246200D7E286 /* SystemConfiguration.framework in Frameworks */,
+				1118B8071B1223C200D7E286 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B7F11B120DA400D7E286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B8291B135C8600D7E286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B84C1B13632E00D7E286 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1118B7D61B120DA400D7E286 = {
+			isa = PBXGroup;
+			children = (
+				1118B80C1B12246200D7E286 /* AVFoundation.framework */,
+				1118B80D1B12246200D7E286 /* CoreData.framework */,
+				1118B80E1B12246200D7E286 /* CoreLocation.framework */,
+				1118B80F1B12246200D7E286 /* CoreText.framework */,
+				1118B8101B12246200D7E286 /* GLKit.framework */,
+				1118B8111B12246200D7E286 /* ImageIO.framework */,
+				1118B8121B12246200D7E286 /* libc++.dylib */,
+				1118B8131B12246200D7E286 /* libicucore.dylib */,
+				1118B8141B12246200D7E286 /* libz.dylib */,
+				1118B8151B12246200D7E286 /* OpenGLES.framework */,
+				1118B8161B12246200D7E286 /* QuartzCore.framework */,
+				1118B8171B12246200D7E286 /* SystemConfiguration.framework */,
+				1118B8061B1223C200D7E286 /* GoogleMaps.framework */,
+				1118B80A1B12241600D7E286 /* GoogleMaps.bundle */,
+				1118B7E11B120DA400D7E286 /* ISS Tracker */,
+				1118B7F71B120DA400D7E286 /* ISS TrackerTests */,
+				1118B82D1B135C8600D7E286 /* ISS Tracker WatchKit Extension */,
+				1118B83A1B135C8600D7E286 /* ISS Tracker WatchKit App */,
+				1118B7E01B120DA400D7E286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1118B7E01B120DA400D7E286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1118B7DF1B120DA400D7E286 /* ISS Tracker.app */,
+				1118B7F41B120DA400D7E286 /* ISS TrackerTests.xctest */,
+				1118B82C1B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex */,
+				1118B8361B135C8600D7E286 /* ISS Tracker WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1118B7E11B120DA400D7E286 /* ISS Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				1118B8251B12259F00D7E286 /* ISS Tracker-Bridging-Header.h */,
+				1118B7E41B120DA400D7E286 /* AppDelegate.swift */,
+				1118B7E61B120DA400D7E286 /* ViewController.swift */,
+				1118B7E81B120DA400D7E286 /* Main.storyboard */,
+				1118B8261B12674000D7E286 /* MoreViewControllerViewController.swift */,
+				1118B7EB1B120DA400D7E286 /* Images.xcassets */,
+				1118B7ED1B120DA400D7E286 /* LaunchScreen.xib */,
+				1118B7E21B120DA400D7E286 /* Supporting Files */,
+			);
+			path = "ISS Tracker";
+			sourceTree = "<group>";
+		};
+		1118B7E21B120DA400D7E286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1118B7E31B120DA400D7E286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1118B7F71B120DA400D7E286 /* ISS TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1118B7FA1B120DA400D7E286 /* ISS_TrackerTests.swift */,
+				1118B7F81B120DA400D7E286 /* Supporting Files */,
+			);
+			path = "ISS TrackerTests";
+			sourceTree = "<group>";
+		};
+		1118B7F81B120DA400D7E286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1118B7F91B120DA400D7E286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1118B82D1B135C8600D7E286 /* ISS Tracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1118B8301B135C8600D7E286 /* InterfaceController.swift */,
+				1118B84D1B136A5E00D7E286 /* MapInterfaceController.swift */,
+				1118B8321B135C8600D7E286 /* Images.xcassets */,
+				1118B82E1B135C8600D7E286 /* Supporting Files */,
+			);
+			path = "ISS Tracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1118B82E1B135C8600D7E286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1118B82F1B135C8600D7E286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1118B83A1B135C8600D7E286 /* ISS Tracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1118B83D1B135C8600D7E286 /* Interface.storyboard */,
+				1118B8401B135C8600D7E286 /* Images.xcassets */,
+				1118B83B1B135C8600D7E286 /* Supporting Files */,
+			);
+			path = "ISS Tracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		1118B83B1B135C8600D7E286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1118B83C1B135C8600D7E286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1118B7DE1B120DA400D7E286 /* ISS Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1118B7FE1B120DA400D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker" */;
+			buildPhases = (
+				1118B7DB1B120DA400D7E286 /* Sources */,
+				1118B7DC1B120DA400D7E286 /* Frameworks */,
+				1118B7DD1B120DA400D7E286 /* Resources */,
+				1118B84B1B135C8600D7E286 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1118B8431B135C8600D7E286 /* PBXTargetDependency */,
+			);
+			name = "ISS Tracker";
+			productName = "ISS Tracker";
+			productReference = 1118B7DF1B120DA400D7E286 /* ISS Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1118B7F31B120DA400D7E286 /* ISS TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1118B8011B120DA400D7E286 /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */;
+			buildPhases = (
+				1118B7F01B120DA400D7E286 /* Sources */,
+				1118B7F11B120DA400D7E286 /* Frameworks */,
+				1118B7F21B120DA400D7E286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1118B7F61B120DA400D7E286 /* PBXTargetDependency */,
+			);
+			name = "ISS TrackerTests";
+			productName = "ISS TrackerTests";
+			productReference = 1118B7F41B120DA400D7E286 /* ISS TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1118B82B1B135C8600D7E286 /* ISS Tracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1118B8481B135C8600D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker WatchKit Extension" */;
+			buildPhases = (
+				1118B8281B135C8600D7E286 /* Sources */,
+				1118B8291B135C8600D7E286 /* Frameworks */,
+				1118B82A1B135C8600D7E286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1118B8391B135C8600D7E286 /* PBXTargetDependency */,
+			);
+			name = "ISS Tracker WatchKit Extension";
+			productName = "ISS Tracker WatchKit Extension";
+			productReference = 1118B82C1B135C8600D7E286 /* ISS Tracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1118B8351B135C8600D7E286 /* ISS Tracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1118B8451B135C8600D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker WatchKit App" */;
+			buildPhases = (
+				1118B8341B135C8600D7E286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISS Tracker WatchKit App";
+			productName = "ISS Tracker WatchKit App";
+			productReference = 1118B8361B135C8600D7E286 /* ISS Tracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1118B7D71B120DA400D7E286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					1118B7DE1B120DA400D7E286 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4N3AGH4V26;
+					};
+					1118B7F31B120DA400D7E286 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1118B7DE1B120DA400D7E286;
+					};
+					1118B82B1B135C8600D7E286 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4N3AGH4V26;
+					};
+					1118B8351B135C8600D7E286 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4N3AGH4V26;
+					};
+				};
+			};
+			buildConfigurationList = 1118B7DA1B120DA400D7E286 /* Build configuration list for PBXProject "ISS Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1118B7D61B120DA400D7E286;
+			productRefGroup = 1118B7E01B120DA400D7E286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1118B7DE1B120DA400D7E286 /* ISS Tracker */,
+				1118B7F31B120DA400D7E286 /* ISS TrackerTests */,
+				1118B82B1B135C8600D7E286 /* ISS Tracker WatchKit Extension */,
+				1118B8351B135C8600D7E286 /* ISS Tracker WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1118B7DD1B120DA400D7E286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B7EA1B120DA400D7E286 /* Main.storyboard in Resources */,
+				1118B7EF1B120DA400D7E286 /* LaunchScreen.xib in Resources */,
+				1118B7EC1B120DA400D7E286 /* Images.xcassets in Resources */,
+				1118B80B1B12241600D7E286 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B7F21B120DA400D7E286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B82A1B135C8600D7E286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B8371B135C8600D7E286 /* ISS Tracker WatchKit App.app in Resources */,
+				1118B8331B135C8600D7E286 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B8341B135C8600D7E286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B83F1B135C8600D7E286 /* Interface.storyboard in Resources */,
+				1118B8411B135C8600D7E286 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1118B7DB1B120DA400D7E286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B7E71B120DA400D7E286 /* ViewController.swift in Sources */,
+				1118B8271B12674000D7E286 /* MoreViewControllerViewController.swift in Sources */,
+				1118B7E51B120DA400D7E286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B7F01B120DA400D7E286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B7FB1B120DA400D7E286 /* ISS_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1118B8281B135C8600D7E286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1118B84E1B136A5E00D7E286 /* MapInterfaceController.swift in Sources */,
+				1118B8311B135C8600D7E286 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1118B7F61B120DA400D7E286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1118B7DE1B120DA400D7E286 /* ISS Tracker */;
+			targetProxy = 1118B7F51B120DA400D7E286 /* PBXContainerItemProxy */;
+		};
+		1118B8391B135C8600D7E286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1118B8351B135C8600D7E286 /* ISS Tracker WatchKit App */;
+			targetProxy = 1118B8381B135C8600D7E286 /* PBXContainerItemProxy */;
+		};
+		1118B8431B135C8600D7E286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1118B82B1B135C8600D7E286 /* ISS Tracker WatchKit Extension */;
+			targetProxy = 1118B8421B135C8600D7E286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1118B7E81B120DA400D7E286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1118B7E91B120DA400D7E286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1118B7ED1B120DA400D7E286 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1118B7EE1B120DA400D7E286 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1118B83D1B135C8600D7E286 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1118B83E1B135C8600D7E286 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1118B7FC1B120DA400D7E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Kulkarni (4UUM5VN9Z4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1118B7FD1B120DA400D7E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Kulkarni (4UUM5VN9Z4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1118B7FF1B120DA400D7E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ISS Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ISS Tracker/ISS Tracker-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1118B8001B120DA400D7E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ISS Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ISS Tracker/ISS Tracker-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1118B8021B120DA400D7E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISS TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/ISS Tracker";
+			};
+			name = Debug;
+		};
+		1118B8031B120DA400D7E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISS TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/ISS Tracker";
+			};
+			name = Release;
+		};
+		1118B8461B135C8600D7E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ISS_Tracker_WatchKit_Extension;
+				INFOPLIST_FILE = "ISS Tracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1118B8471B135C8600D7E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = ISS_Tracker_WatchKit_Extension;
+				INFOPLIST_FILE = "ISS Tracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1118B8491B135C8600D7E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISS Tracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1118B84A1B135C8600D7E286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ISS Tracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1118B7DA1B120DA400D7E286 /* Build configuration list for PBXProject "ISS Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1118B7FC1B120DA400D7E286 /* Debug */,
+				1118B7FD1B120DA400D7E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1118B7FE1B120DA400D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1118B7FF1B120DA400D7E286 /* Debug */,
+				1118B8001B120DA400D7E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1118B8011B120DA400D7E286 /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1118B8021B120DA400D7E286 /* Debug */,
+				1118B8031B120DA400D7E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1118B8451B135C8600D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1118B8461B135C8600D7E286 /* Debug */,
+				1118B8471B135C8600D7E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1118B8481B135C8600D7E286 /* Build configuration list for PBXNativeTarget "ISS Tracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1118B8491B135C8600D7E286 /* Debug */,
+				1118B84A1B135C8600D7E286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1118B7D71B120DA400D7E286 /* Project object */;
+}

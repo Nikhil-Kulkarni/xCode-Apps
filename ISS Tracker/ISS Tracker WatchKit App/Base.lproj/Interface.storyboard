@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E17e" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ISS_Tracker_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="26.5" alignment="left" text="Next Sighting:" id="i6F-OE-rFp"/>
+                        <label width="136" height="45.5" alignment="left" text="Location Not Enabled" numberOfLines="2" id="1Bm-qx-5JM"/>
+                        <label width="136" height="30.5" alignment="left" text="Duration" id="jzL-pa-fzY"/>
+                        <button width="1" alignment="left" title="Current Position" id="EsM-nR-XTR">
+                            <connections>
+                                <segue destination="YqB-js-Gwy" kind="push" id="jmR-7I-VjK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Refresh" id="caU-k1-jAv">
+                            <connections>
+                                <action selector="refreshPressed" destination="AgC-eL-Hgc" id="ePe-4W-u3R"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="durationLabel" destination="jzL-pa-fzY" id="uOq-gH-4wI"/>
+                        <outlet property="nextPassLabel" destination="1Bm-qx-5JM" id="UEA-5r-qSH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="440" y="265.5"/>
+        </scene>
+        <!--Map Interface Controller-->
+        <scene sceneID="wK5-f4-LTe">
+            <objects>
+                <controller id="YqB-js-Gwy" customClass="MapInterfaceController" customModule="ISS_Tracker_WatchKit_Extension">
+                    <items>
+                        <map height="141" alignment="left" id="iZS-n2-fPH"/>
+                        <button width="1" alignment="left" title="Refresh" id="HgP-ut-jXW">
+                            <connections>
+                                <action selector="refreshPressed" destination="YqB-js-Gwy" id="Bxo-7g-Or0"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="mapView" destination="iZS-n2-fPH" id="zRt-Gi-xpQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="687" y="266"/>
+        </scene>
+    </scenes>
+</document>

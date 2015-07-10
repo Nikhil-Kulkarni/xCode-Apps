@@ -27,7 +27,7 @@ class NKCloudGenerator:SKSpriteNode {
     }
     
     func startGeneratingWithSpawnTime(seconds: NSTimeInterval) {
-        generationTimer = NSTimer(timeInterval: seconds, target: self, selector: "generateCloud", userInfo: nil, repeats: true)
+        generationTimer = NSTimer(timeInterval: seconds, target: self, selector: Selector("generateCloud"), userInfo: nil, repeats: true)
     }
     
     func generateCloud() {

@@ -12,6 +12,7 @@ import SpriteKit
 class NKMovingGround: SKSpriteNode {
     
     let NUMBER_OF_SEGMENTS = 20
+
     let COLOR_ONE = UIColor(red: 88/255.0, green: 148/255.0, blue: 87.0/255, alpha: 1)
     let COLOR_TWO = UIColor(red: 120/255, green: 195/255, blue: 188/255, alpha: 1)
     
@@ -37,7 +38,7 @@ class NKMovingGround: SKSpriteNode {
         let moveLeft = SKAction.moveByX(-frame.size.width/2, y: 0, duration: 1.0)
         let resetPosition = SKAction.moveToX(0, duration: 0)
         let moveSequence = SKAction.sequence([moveLeft, resetPosition])
-        runAction(SKAction.repeatActionForever(moveSequence), completion: nil)
+        runAction(SKAction.repeatActionForever(moveSequence))
     }
 
     required init?(coder aDecoder: NSCoder) {
