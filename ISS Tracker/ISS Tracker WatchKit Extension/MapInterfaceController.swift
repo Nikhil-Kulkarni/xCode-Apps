@@ -73,6 +73,7 @@ class MapInterfaceController: WKInterfaceController {
                             var coordinate = CLLocationCoordinate2DMake(self.latitude, self.longitude)
                             let span = MKCoordinateSpanMake(80, 80)
                             self.mapView.addAnnotation(coordinate, withPinColor: WKInterfaceMapPinColor.Purple)
+
                             self.mapView.setRegion(MKCoordinateRegion(center: coordinate, span: span))
                         }
                     }
