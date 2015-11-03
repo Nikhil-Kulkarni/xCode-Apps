@@ -20,8 +20,8 @@ class ShareViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var blurEffect = UIBlurEffect(style: .Dark)
-        var blurEffectView = UIVisualEffectView(effect: blurEffect)
+        let blurEffect = UIBlurEffect(style: .Dark)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.frame
         background.addSubview(blurEffectView)
         
@@ -35,19 +35,19 @@ class ShareViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        UIView.animateWithDuration(1.3, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: {
+        UIView.animateWithDuration(1.3, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
             self.facebook.transform = CGAffineTransformMakeTranslation(0, 0)
         }, completion: nil)
         
-        UIView.animateWithDuration(1.3, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: {
+        UIView.animateWithDuration(1.3, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
             self.email.transform = CGAffineTransformMakeTranslation(0, 0)
         }, completion: nil)
         
-        UIView.animateWithDuration(1.3, delay: 0.3, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: {
+        UIView.animateWithDuration(1.3, delay: 0.3, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
             self.message.transform = CGAffineTransformMakeTranslation(0, 0)
         }, completion: nil)
         
-        UIView.animateWithDuration(1.3, delay: 0.3, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: {
+        UIView.animateWithDuration(1.3, delay: 0.3, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
             self.twitter.transform = CGAffineTransformMakeTranslation(0, 0)
         }, completion: nil)
     }

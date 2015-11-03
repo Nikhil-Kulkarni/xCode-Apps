@@ -54,7 +54,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as DetailTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! DetailTableViewCell
         
         cell.mapButton.hidden = true
         
@@ -87,7 +87,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "showMap") {
-            let destinationController = segue.destinationViewController as MapViewController
+            let destinationController = segue.destinationViewController as! MapViewController
             destinationController.restaurant = restaurant
         }
     }

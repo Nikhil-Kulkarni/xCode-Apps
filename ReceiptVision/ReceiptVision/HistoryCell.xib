@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="1HZ-0k-yyF" customClass="HistoryCell" customModule="ReceiptVision" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1HZ-0k-yyF" id="148-J3-TP3">
+                <rect key="frame" x="0.0" y="0.0" width="447" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grocery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r81-Bv-t6P">
+                        <rect key="frame" x="8" y="29" width="161" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-$50.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXO-o3-GpA">
+                        <rect key="frame" x="292" y="5" width="147" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="147" id="ov2-2f-mjU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5QD-dM-Vtx">
+                        <rect key="frame" x="292" y="29" width="147" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trader Joe's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11K-uF-AZU">
+                        <rect key="frame" x="8" y="8" width="161" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="161" id="AcQ-L9-wfg"/>
+                            <constraint firstAttribute="height" constant="21" id="JKm-JS-dde"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="r81-Bv-t6P" secondAttribute="bottom" constant="-3.5" id="1NR-WK-2s8"/>
+                    <constraint firstItem="hXO-o3-GpA" firstAttribute="top" secondItem="148-J3-TP3" secondAttribute="topMargin" constant="-3" id="3pm-va-s2P"/>
+                    <constraint firstItem="hXO-o3-GpA" firstAttribute="trailing" secondItem="148-J3-TP3" secondAttribute="trailingMargin" id="5eM-I5-YOy"/>
+                    <constraint firstItem="5QD-dM-Vtx" firstAttribute="firstBaseline" secondItem="r81-Bv-t6P" secondAttribute="firstBaseline" id="G8U-oF-N0H"/>
+                    <constraint firstItem="r81-Bv-t6P" firstAttribute="top" secondItem="11K-uF-AZU" secondAttribute="bottom" id="Gc8-SC-zhS"/>
+                    <constraint firstItem="5QD-dM-Vtx" firstAttribute="leading" secondItem="hXO-o3-GpA" secondAttribute="leading" id="KJ8-1B-V8p"/>
+                    <constraint firstItem="5QD-dM-Vtx" firstAttribute="baseline" secondItem="r81-Bv-t6P" secondAttribute="baseline" id="P1z-wF-Aax"/>
+                    <constraint firstItem="r81-Bv-t6P" firstAttribute="leading" secondItem="11K-uF-AZU" secondAttribute="leading" id="QnU-eK-Ybx"/>
+                    <constraint firstItem="5QD-dM-Vtx" firstAttribute="trailing" secondItem="hXO-o3-GpA" secondAttribute="trailing" id="TBC-RK-Ybk"/>
+                    <constraint firstItem="5QD-dM-Vtx" firstAttribute="top" secondItem="hXO-o3-GpA" secondAttribute="bottom" constant="3" id="Xay-Qm-3qh"/>
+                    <constraint firstItem="11K-uF-AZU" firstAttribute="trailing" secondItem="r81-Bv-t6P" secondAttribute="trailing" id="cln-th-XCZ"/>
+                    <constraint firstItem="11K-uF-AZU" firstAttribute="leading" secondItem="148-J3-TP3" secondAttribute="leadingMargin" id="jkz-yV-PDv"/>
+                    <constraint firstItem="11K-uF-AZU" firstAttribute="top" secondItem="148-J3-TP3" secondAttribute="topMargin" id="lHR-Ci-HTD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="datePurchased" destination="5QD-dM-Vtx" id="h0E-r9-2ve"/>
+                <outlet property="moneySpent" destination="hXO-o3-GpA" id="jN0-dT-k8D"/>
+                <outlet property="placeCategory" destination="r81-Bv-t6P" id="7ow-UF-VIT"/>
+                <outlet property="placeName" destination="11K-uF-AZU" id="xN1-6F-LYZ"/>
+            </connections>
+            <point key="canvasLocation" x="365.5" y="355.5"/>
+        </tableViewCell>
+    </objects>
+</document>

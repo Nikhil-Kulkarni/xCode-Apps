@@ -1,0 +1,10 @@
+PODS:
+  - PebbleKit (3.0.0)
+
+DEPENDENCIES:
+  - PebbleKit
+
+SPEC CHECKSUMS:
+  PebbleKit: 575087dc3e7ca1687929dd4903baabcf8f224cff
+
+COCOAPODS: 0.38.2

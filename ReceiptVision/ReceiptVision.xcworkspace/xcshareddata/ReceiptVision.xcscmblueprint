@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DF0886BD86FB4AEF65C2ADAF39CD3F1EF8CBBA4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4C0FA59D39D3A31448639E2AEA8548D307AF259B" : 0,
+    "DF0886BD86FB4AEF65C2ADAF39CD3F1EF8CBBA4B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35433C19-95D9-412B-B9FE-09B85F50AC34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4C0FA59D39D3A31448639E2AEA8548D307AF259B" : "",
+    "DF0886BD86FB4AEF65C2ADAF39CD3F1EF8CBBA4B" : "ReceiptVision\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ReceiptVision",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ReceiptVision.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nikhil-kulkarni\/xCode-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C0FA59D39D3A31448639E2AEA8548D307AF259B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nikhil-Kulkarni\/HackGT2015.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF0886BD86FB4AEF65C2ADAF39CD3F1EF8CBBA4B"
+    }
+  ]
+}

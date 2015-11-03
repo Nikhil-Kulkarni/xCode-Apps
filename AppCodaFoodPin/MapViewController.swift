@@ -24,7 +24,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             placemarks, error in
             
             if (error != nil) {
-                println(error)
+                print(error)
                 return
             }
             
@@ -42,7 +42,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         })
     }
     
-    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView! {
         let identifier = "MyPin"
         
         if (annotation.isKindOfClass(MKUserLocation)) {

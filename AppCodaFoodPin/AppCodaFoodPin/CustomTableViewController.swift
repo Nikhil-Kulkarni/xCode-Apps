@@ -28,10 +28,10 @@ class CustomTableViewController: UITableViewController {
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
         
-        var width = self.view.frame.width
-        println(width)
-        var height = self.view.frame.height
-        println(height)
+        let width = self.view.frame.width
+        print(width)
+        let height = self.view.frame.height
+        print(height)
         
     }
     
@@ -47,7 +47,7 @@ class CustomTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let restaurant = restaurants[indexPath.row]
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as CustomTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! CustomTableViewCell
         cell.name.text = restaurant.name
         cell.imageThumbnail.image = UIImage(data: restaurant.image)
         cell.imageThumbnail.frame = CGRect(x: 15, y: 10, width: 60, height: 60)
@@ -123,8 +123,8 @@ class CustomTableViewController: UITableViewController {
 //        }
     }
     
-    override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [AnyObject]? {
-        var shareAction = UITableViewRowAction(style: .Default, title: "Share") { (action:UITableViewRowAction!, indexPath:NSIndexPath!) -> Void in
+    override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        let shareAction = UITableViewRowAction(style: .Default, title: "Share") { (action:UITableViewRowAction, indexPath:NSIndexPath) -> Void in
             
             let shareMenu = UIAlertController(title: nil, message: "Share Using", preferredStyle: .ActionSheet)
             let twitterAction = UIAlertAction(title: "Twitter", style:
@@ -143,8 +143,8 @@ class CustomTableViewController: UITableViewController {
             self.presentViewController(shareMenu, animated: true, completion: nil)
         }
         
-        var deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.Default,
-            title: "Delete", handler: { (action:UITableViewRowAction!, indexPath:NSIndexPath!) -> Void in
+        let deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.Default,
+            title: "Delete", handler: { (action:UITableViewRowAction, indexPath:NSIndexPath) -> Void in
             // Delete the row from the data source
             self.restaurants.removeAtIndex(indexPath.row)
             self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
@@ -161,8 +161,8 @@ class CustomTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
                 if (segue.identifier == "showRestaurantDetail") {
-                    if let indexPath = self.tableView.indexPathForSelectedRow() {
-                        let destinationController = segue.destinationViewController as DetailViewController
+                    if let indexPath = self.tableView.indexPathForSelectedRow {
+                        let destinationController = segue.destinationViewController as! DetailViewController
                         destinationController.restaurant = restaurants[indexPath.row]
                     }
                 }

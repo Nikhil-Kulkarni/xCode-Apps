@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wgz-SD-mca">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Where do you want to meetup?-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meetup" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MRm-zb-69m">
+                                <rect key="frame" x="-4" y="64" width="328" height="504"/>
+                                <animations/>
+                            </mapView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="Cfa-lX-l1I">
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                                <animations/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vOZ-Pn-hY8"/>
+                                </connections>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlR-fH-RPP">
+                                <rect key="frame" x="12" y="495" width="296" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.34901960780000002" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YlR-fH-RPP" secondAttribute="height" multiplier="297:47" constant="-38.914893617021278" id="vqb-a0-4vk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="Start Meetup">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9r-Wo-PPu">
+                                <rect key="frame" x="12" y="495" width="296" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.47164948987637134" green="0.71571993866081773" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h9r-Wo-PPu" secondAttribute="height" multiplier="296:53" id="5r0-M6-mfe"/>
+                                    <constraint firstAttribute="width" secondItem="h9r-Wo-PPu" secondAttribute="height" multiplier="297:47" constant="-38.914893617021278" id="D74-tH-bF8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="Join a Meetup">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teardropSelector" translatesAutoresizingMaskIntoConstraints="NO" id="jxc-vP-Qqh">
+                                <rect key="frame" x="138" y="294" width="44" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="MGy-8r-N4p"/>
+                                    <constraint firstAttribute="width" constant="44" id="Xqh-PZ-uLn"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nz-W6-P1U">
+                                <rect key="frame" x="272" y="451" width="36" height="36"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="cKX-mD-Czd"/>
+                                    <constraint firstAttribute="width" constant="36" id="hWu-aG-phZ"/>
+                                </constraints>
+                                <state key="normal" image="navMarker"/>
+                                <connections>
+                                    <action selector="goToCurrentLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWu-v9-wZa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jxc-vP-Qqh" firstAttribute="centerX" secondItem="MRm-zb-69m" secondAttribute="centerX" id="2Nh-TK-9tA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MRm-zb-69m" secondAttribute="trailing" constant="-20" id="5IK-li-c2W"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MRm-zb-69m" secondAttribute="bottom" id="A8Z-PE-WFy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h9r-Wo-PPu" secondAttribute="trailing" constant="-8" id="Mef-oI-Knc"/>
+                            <constraint firstItem="MRm-zb-69m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Tmc-Bf-NE1"/>
+                            <constraint firstItem="YlR-fH-RPP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="ZXv-cL-FwN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h9r-Wo-PPu" secondAttribute="bottom" constant="20" id="bFG-VO-sQk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YlR-fH-RPP" secondAttribute="bottom" constant="20" id="dd1-zi-FPI"/>
+                            <constraint firstItem="jxc-vP-Qqh" firstAttribute="centerY" secondItem="MRm-zb-69m" secondAttribute="centerY" id="f7F-Af-wC3"/>
+                            <constraint firstItem="h9r-Wo-PPu" firstAttribute="top" secondItem="8nz-W6-P1U" secondAttribute="bottom" constant="8" id="fIX-Eb-Pgy"/>
+                            <constraint firstItem="h9r-Wo-PPu" firstAttribute="width" secondItem="h9r-Wo-PPu" secondAttribute="height" multiplier="297:47" constant="-38.914893617021278" id="gGP-iu-hCU"/>
+                            <constraint firstItem="MRm-zb-69m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iP3-P3-ipw"/>
+                            <constraint firstItem="8nz-W6-P1U" firstAttribute="leading" secondItem="MRm-zb-69m" secondAttribute="trailing" constant="-52" id="oux-rn-lIF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YlR-fH-RPP" secondAttribute="trailing" constant="-8" id="qxW-qn-pHj"/>
+                            <constraint firstItem="h9r-Wo-PPu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="xZJ-qr-586"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Where do you want to meetup?" id="MYT-Dm-IFI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="joinMeetup" destination="h9r-Wo-PPu" id="hLY-W2-ciC"/>
+                        <outlet property="mapView" destination="MRm-zb-69m" id="1Yk-On-eOh"/>
+                        <outlet property="meetupButton" destination="YlR-fH-RPP" id="x0O-dH-s3g"/>
+                        <outlet property="navMarker" destination="8nz-W6-P1U" id="MmA-BE-JJY"/>
+                        <outlet property="searchBar" destination="Cfa-lX-l1I" id="I6X-zg-Vhm"/>
+                        <outlet property="searchDisplayController" destination="uGF-xR-YLP" id="1Qe-f3-WRO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="uGF-xR-YLP">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ckB-tb-NwV"/>
+                        <outlet property="searchBar" destination="Cfa-lX-l1I" id="Jpr-VG-0Bb"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="jdT-UF-PGF"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="fbc-LE-fKB"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="c40-ns-DIq"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1155" y="-93"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PGe-io-Adr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wgz-SD-mca" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="caz-p2-YUu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MSh-rm-WNW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3FW-mR-wuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771" y="-101"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="navMarker" width="72" height="72"/>
+        <image name="teardropSelector" width="72" height="72"/>
+    </resources>
+</document>
