@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1113D82F1C0B9F7B0050AE3C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1113D82E1C0B9F7B0050AE3C /* main.c */; };
+		1113D8381C0B9F870050AE3C /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 1113D8351C0B9F870050AE3C /* client.c */; };
+		1113D8391C0B9F870050AE3C /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1113D8361C0B9F870050AE3C /* rtp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1113D82B1C0B9F7B0050AE3C /* prj7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prj7; sourceTree = BUILT_PRODUCTS_DIR; };
-		1113D82E1C0B9F7B0050AE3C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1113D8351C0B9F870050AE3C /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		1113D8361C0B9F870050AE3C /* rtp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtp.c; sourceTree = "<group>"; };
+		1113D8371C0B9F870050AE3C /* rtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		1113D82D1C0B9F7B0050AE3C /* prj7 */ = {
 			isa = PBXGroup;
 			children = (
-				1113D82E1C0B9F7B0050AE3C /* main.c */,
+				1113D8351C0B9F870050AE3C /* client.c */,
+				1113D8361C0B9F870050AE3C /* rtp.c */,
+				1113D8371C0B9F870050AE3C /* rtp.h */,
 			);
 			path = prj7;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1113D82F1C0B9F7B0050AE3C /* main.c in Sources */,
+				1113D8391C0B9F870050AE3C /* rtp.c in Sources */,
+				1113D8381C0B9F870050AE3C /* client.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

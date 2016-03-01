@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dispatch_sync(dispatch_get_main_queue()) { () -> Void in
+            print("Outside sync")
+            dispatch_sync(dispatch_get_main_queue(), { () -> Void in
+                print("asdf")
+            })
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

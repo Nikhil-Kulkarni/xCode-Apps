@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Kj-mf-qkF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -22,11 +22,17 @@
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="86" y="225" width="229" height="30"/>
+                                </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAQ-Ba-jpy">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="86" y="275" width="229" height="30"/>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ox8-OV-Svs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -42,7 +48,8 @@
                                         <exclude reference="bAB-70-yL5"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="165" y="313" width="71" height="30"/>
                                     <mask key="constraints">
                                         <include reference="bAB-70-yL5"/>
                                     </mask>
@@ -98,20 +105,21 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="q6F-wl-Gte"/>
                     <connections>
                         <outlet property="name" destination="If8-Xa-EcG" id="r4E-5d-3eB"/>
                         <outlet property="phoneNumber" destination="SAQ-Ba-jpy" id="yWY-cr-eBq"/>
-                        <segue destination="9S1-uf-sIN" kind="show" identifier="showSolids" id="PcW-Wb-bi0"/>
+                        <segue destination="wyL-yF-AWv" kind="show" identifier="showSolids" action="showDetailViewController:sender:" id="axy-ZK-kJg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="355"/>
+            <point key="canvasLocation" x="1294.5" y="355"/>
         </scene>
-        <!--View Controller-->
+        <!--Solid View Controller-->
         <scene sceneID="oab-xU-3a0">
             <objects>
-                <viewController id="wyL-yF-AWv" sceneMemberID="viewController">
+                <viewController id="wyL-yF-AWv" customClass="SolidViewController" customModule="Solid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b3V-fn-gmP"/>
                         <viewControllerLayoutGuide type="bottom" id="Ev3-Ok-BPr"/>
@@ -122,20 +130,34 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tSd-JN-I8m">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
-                                </variation>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.32156862749999998" green="0.63529411759999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tSd-JN-I8m" firstAttribute="bottom" secondItem="Ev3-Ok-BPr" secondAttribute="top" id="9FY-KF-5tx"/>
+                            <constraint firstItem="tSd-JN-I8m" firstAttribute="leading" secondItem="wrZ-Jf-pI9" secondAttribute="leading" id="N6m-EK-Ric"/>
+                            <constraint firstAttribute="trailing" secondItem="tSd-JN-I8m" secondAttribute="trailing" id="XHG-8t-rqD"/>
+                            <constraint firstItem="tSd-JN-I8m" firstAttribute="top" secondItem="b3V-fn-gmP" secondAttribute="bottom" id="ZpK-bM-3Xa"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="tSd-JN-I8m"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9FY-KF-5tx"/>
+                                <exclude reference="N6m-EK-Ric"/>
+                                <exclude reference="XHG-8t-rqD"/>
+                                <exclude reference="ZpK-bM-3Xa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="tSd-JN-I8m"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="9FY-KF-5tx"/>
+                                <include reference="N6m-EK-Ric"/>
+                                <include reference="XHG-8t-rqD"/>
+                                <include reference="ZpK-bM-3Xa"/>
                             </mask>
                         </variation>
                     </view>
@@ -145,33 +167,38 @@
                             <rect key="frame" x="-60" y="-14" width="121" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
-                                <segment title="First"/>
-                                <segment title="Second"/>
+                                <segment title="Feed"/>
+                                <segment title="My Solids"/>
                             </segments>
+                            <color key="tintColor" red="0.2156862745" green="0.88235294119999996" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                         </segmentedControl>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segmentedControl" destination="MZI-SC-S6P" id="Rm0-ez-9WN"/>
+                        <outlet property="tableView" destination="tSd-JN-I8m" id="8vq-nF-D0m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOg-gN-rqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="355"/>
+            <point key="canvasLocation" x="2013" y="355"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="sNN-pV-3II">
+        <scene sceneID="Hza-ls-KfE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9S1-uf-sIN" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Kj-mf-qkF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rma-e8-Wby">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pkx-ib-0MP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="wyL-yF-AWv" kind="relationship" relationship="rootViewController" id="nEd-UH-3J3"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uI5-ah-vic"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wa-Hp-hrl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tro-A8-mok" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1243.5" y="355"/>
+            <point key="canvasLocation" x="582" y="355"/>
         </scene>
     </scenes>
 </document>

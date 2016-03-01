@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113A56501C77810D005F3405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 113A564F1C77810D005F3405 /* main.m */; };
+		113A56531C77810D005F3405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 113A56521C77810D005F3405 /* AppDelegate.m */; };
+		113A56561C77810D005F3405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113A56551C77810D005F3405 /* ViewController.m */; };
+		113A56591C77810D005F3405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113A56571C77810D005F3405 /* Main.storyboard */; };
+		113A565C1C77810D005F3405 /* Calorie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 113A565A1C77810D005F3405 /* Calorie.xcdatamodeld */; };
+		113A565E1C77810D005F3405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113A565D1C77810D005F3405 /* Assets.xcassets */; };
+		113A56611C77810D005F3405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113A565F1C77810D005F3405 /* LaunchScreen.storyboard */; };
+		113A566A1C77D71D005F3405 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113A56691C77D71D005F3405 /* AddViewController.m */; };
+		113A566C1C77DE71005F3405 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113A566B1C77DE71005F3405 /* CoreData.framework */; };
+		113A566F1C7801BF005F3405 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113A566E1C7801BF005F3405 /* HistoryViewController.m */; };
+		113F36311C7D5C7100F52C18 /* NKFirstLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 113F36301C7D5C7100F52C18 /* NKFirstLaunch.m */; };
+		EF805CC0615BA7E7AD662677 /* libPods-Calorie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42591773D353F56ADC857400 /* libPods-Calorie.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		113A564B1C77810D005F3405 /* Calorie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calorie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113A564F1C77810D005F3405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		113A56511C77810D005F3405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		113A56521C77810D005F3405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		113A56541C77810D005F3405 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		113A56551C77810D005F3405 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		113A56581C77810D005F3405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113A565B1C77810D005F3405 /* Calorie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calorie.xcdatamodel; sourceTree = "<group>"; };
+		113A565D1C77810D005F3405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113A56601C77810D005F3405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113A56621C77810D005F3405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113A56681C77D71D005F3405 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		113A56691C77D71D005F3405 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		113A566B1C77DE71005F3405 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		113A566D1C7801BF005F3405 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		113A566E1C7801BF005F3405 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		113F362F1C7D5C7100F52C18 /* NKFirstLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFirstLaunch.h; sourceTree = "<group>"; };
+		113F36301C7D5C7100F52C18 /* NKFirstLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFirstLaunch.m; sourceTree = "<group>"; };
+		42591773D353F56ADC857400 /* libPods-Calorie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Calorie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36353BEC13814FDF184B03B /* Pods-Calorie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calorie/Pods-Calorie.debug.xcconfig"; sourceTree = "<group>"; };
+		B8492AA6708705CADE87A6C5 /* Pods-Calorie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calorie/Pods-Calorie.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113A56481C77810D005F3405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113A566C1C77DE71005F3405 /* CoreData.framework in Frameworks */,
+				EF805CC0615BA7E7AD662677 /* libPods-Calorie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113A56421C77810D005F3405 = {
+			isa = PBXGroup;
+			children = (
+				113A566B1C77DE71005F3405 /* CoreData.framework */,
+				113A564D1C77810D005F3405 /* Calorie */,
+				113A564C1C77810D005F3405 /* Products */,
+				2A3386BF853F7AAE0D3002BA /* Pods */,
+				3D646AF35770C1996F49F018 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		113A564C1C77810D005F3405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113A564B1C77810D005F3405 /* Calorie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113A564D1C77810D005F3405 /* Calorie */ = {
+			isa = PBXGroup;
+			children = (
+				113A56511C77810D005F3405 /* AppDelegate.h */,
+				113A56521C77810D005F3405 /* AppDelegate.m */,
+				113A56541C77810D005F3405 /* ViewController.h */,
+				113A56551C77810D005F3405 /* ViewController.m */,
+				113A56681C77D71D005F3405 /* AddViewController.h */,
+				113A56691C77D71D005F3405 /* AddViewController.m */,
+				113A566D1C7801BF005F3405 /* HistoryViewController.h */,
+				113A566E1C7801BF005F3405 /* HistoryViewController.m */,
+				113A56571C77810D005F3405 /* Main.storyboard */,
+				113F362F1C7D5C7100F52C18 /* NKFirstLaunch.h */,
+				113F36301C7D5C7100F52C18 /* NKFirstLaunch.m */,
+				113A565D1C77810D005F3405 /* Assets.xcassets */,
+				113A565F1C77810D005F3405 /* LaunchScreen.storyboard */,
+				113A56621C77810D005F3405 /* Info.plist */,
+				113A565A1C77810D005F3405 /* Calorie.xcdatamodeld */,
+				113A564E1C77810D005F3405 /* Supporting Files */,
+			);
+			path = Calorie;
+			sourceTree = "<group>";
+		};
+		113A564E1C77810D005F3405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				113A564F1C77810D005F3405 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A3386BF853F7AAE0D3002BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A36353BEC13814FDF184B03B /* Pods-Calorie.debug.xcconfig */,
+				B8492AA6708705CADE87A6C5 /* Pods-Calorie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D646AF35770C1996F49F018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42591773D353F56ADC857400 /* libPods-Calorie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113A564A1C77810D005F3405 /* Calorie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113A56651C77810D005F3405 /* Build configuration list for PBXNativeTarget "Calorie" */;
+			buildPhases = (
+				7CDEF6411EEB3FBF1F639294 /* Check Pods Manifest.lock */,
+				113A56471C77810D005F3405 /* Sources */,
+				113A56481C77810D005F3405 /* Frameworks */,
+				113A56491C77810D005F3405 /* Resources */,
+				A8C03CE8DC6B2C85F9FBCD33 /* Embed Pods Frameworks */,
+				5C50B3018A9286925B55259F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calorie;
+			productName = Calorie;
+			productReference = 113A564B1C77810D005F3405 /* Calorie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113A56431C77810D005F3405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nikhil Kulkarni";
+				TargetAttributes = {
+					113A564A1C77810D005F3405 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 113A56461C77810D005F3405 /* Build configuration list for PBXProject "Calorie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113A56421C77810D005F3405;
+			productRefGroup = 113A564C1C77810D005F3405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113A564A1C77810D005F3405 /* Calorie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113A56491C77810D005F3405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113A56611C77810D005F3405 /* LaunchScreen.storyboard in Resources */,
+				113A565E1C77810D005F3405 /* Assets.xcassets in Resources */,
+				113A56591C77810D005F3405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C50B3018A9286925B55259F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calorie/Pods-Calorie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDEF6411EEB3FBF1F639294 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C03CE8DC6B2C85F9FBCD33 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calorie/Pods-Calorie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113A56471C77810D005F3405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113A566A1C77D71D005F3405 /* AddViewController.m in Sources */,
+				113A56561C77810D005F3405 /* ViewController.m in Sources */,
+				113A56531C77810D005F3405 /* AppDelegate.m in Sources */,
+				113F36311C7D5C7100F52C18 /* NKFirstLaunch.m in Sources */,
+				113A56501C77810D005F3405 /* main.m in Sources */,
+				113A565C1C77810D005F3405 /* Calorie.xcdatamodeld in Sources */,
+				113A566F1C7801BF005F3405 /* HistoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		113A56571C77810D005F3405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113A56581C77810D005F3405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		113A565F1C77810D005F3405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113A56601C77810D005F3405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		113A56631C77810D005F3405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		113A56641C77810D005F3405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113A56661C77810D005F3405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36353BEC13814FDF184B03B /* Pods-Calorie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Calorie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilkulkarni.Calorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		113A56671C77810D005F3405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8492AA6708705CADE87A6C5 /* Pods-Calorie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Calorie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilkulkarni.Calorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113A56461C77810D005F3405 /* Build configuration list for PBXProject "Calorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113A56631C77810D005F3405 /* Debug */,
+				113A56641C77810D005F3405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113A56651C77810D005F3405 /* Build configuration list for PBXNativeTarget "Calorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113A56661C77810D005F3405 /* Debug */,
+				113A56671C77810D005F3405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		113A565A1C77810D005F3405 /* Calorie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				113A565B1C77810D005F3405 /* Calorie.xcdatamodel */,
+			);
+			currentVersion = 113A565B1C77810D005F3405 /* Calorie.xcdatamodel */;
+			path = Calorie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 113A56431C77810D005F3405 /* Project object */;
+}

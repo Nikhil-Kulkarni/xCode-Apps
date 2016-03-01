@@ -57,7 +57,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             loggingLabel.setTitle("Stop Logging")
             logging = true
             let operation = NSOperation()
-            operation.queuePriority = NSOperationQueuePriority.VeryHigh
+            operation.queuePriority = .VeryHigh
             operation.qualityOfService = NSQualityOfService.UserInitiated
             
             let operationQueue: NSOperationQueue = NSOperationQueue()

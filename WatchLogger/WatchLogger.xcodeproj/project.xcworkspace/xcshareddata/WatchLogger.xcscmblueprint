@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D1C92725618908CC0C3C2F6947FE72A95D872D0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4C0FA59D39D3A31448639E2AEA8548D307AF259B" : 0,
+    "D1C92725618908CC0C3C2F6947FE72A95D872D0E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "791A030A-A235-4A39-83AF-7807AC5F1B1C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4C0FA59D39D3A31448639E2AEA8548D307AF259B" : "",
+    "D1C92725618908CC0C3C2F6947FE72A95D872D0E" : "WatchLogger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WatchLogger",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WatchLogger.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nikhil-kulkarni\/xCode-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C0FA59D39D3A31448639E2AEA8548D307AF259B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nikhil-Kulkarni\/AppleWatchLogger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1C92725618908CC0C3C2F6947FE72A95D872D0E"
+    }
+  ]
+}

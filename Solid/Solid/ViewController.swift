@@ -16,6 +16,20 @@ class ViewController: UIViewController {
     @IBOutlet var name: UITextField!
     @IBOutlet var phoneNumber: UITextField!
     
+    override func viewWillAppear(animated: Bool) {
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        var phone_number: String?
+        let phone_number_obj = userDefaults.objectForKey("phone_number")
+        if (phone_number_obj != nil) {
+            phone_number = phone_number_obj as? String
+            global_phone_number = phone_number!
+            print(global_phone_number)
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                self.performSegueWithIdentifier("showSolids", sender: nil)
+            })
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -53,8 +67,12 @@ class ViewController: UIViewController {
                 let json = JSON(data: data!)
                 if let message = json["message"].string {
                     print(message)
+                    let userDefaults = NSUserDefaults.standardUserDefaults()
+                    userDefaults.setObject(self.phoneNumber.text!, forKey: "phone_number")
                     global_phone_number = self.phoneNumber.text!
-                    self.performSegueWithIdentifier("showSolids", sender: nil)
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        self.performSegueWithIdentifier("showSolids", sender: nil)
+                    })
                 }
             })
             task.resume()

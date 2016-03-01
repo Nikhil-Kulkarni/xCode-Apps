@@ -9,6 +9,8 @@
 import UIKit
 
 class SolidTableViewCell: UITableViewCell {
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

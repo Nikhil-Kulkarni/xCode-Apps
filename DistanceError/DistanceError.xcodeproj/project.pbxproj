@@ -12,6 +12,7 @@
 		1113D84C1C0BB83C0050AE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1113D84A1C0BB83C0050AE3C /* Main.storyboard */; };
 		1113D84E1C0BB83C0050AE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1113D84D1C0BB83C0050AE3C /* Assets.xcassets */; };
 		1113D8511C0BB83C0050AE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1113D84F1C0BB83C0050AE3C /* LaunchScreen.storyboard */; };
+		117255C11C0BBFEB0030DE48 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117255C01C0BBFEB0030DE48 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1113D84D1C0BB83C0050AE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1113D8501C0BB83C0050AE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1113D8521C0BB83C0050AE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117255C01C0BBFEB0030DE48 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117255C11C0BBFEB0030DE48 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		1113D83A1C0BB83C0050AE3C = {
 			isa = PBXGroup;
 			children = (
+				117255C01C0BBFEB0030DE48 /* CoreMotion.framework */,
 				1113D8451C0BB83C0050AE3C /* DistanceError */,
 				1113D8441C0BB83C0050AE3C /* Products */,
 			);
@@ -284,6 +288,7 @@
 				1113D8571C0BB83C0050AE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

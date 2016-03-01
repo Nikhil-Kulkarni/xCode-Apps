@@ -1,0 +1,16 @@
+PODS:
+  - PNChart (0.8.7):
+    - UICountingLabel (~> 1.2.0)
+  - STPopup (1.5.0)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - PNChart
+  - STPopup
+
+SPEC CHECKSUMS:
+  PNChart: c1755716bbd45386d2035b2bf2ce73e6d3f8cb22
+  STPopup: 0c5bfe21b39ce422593f93d8f7f5df3d1bc6d1d3
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.39.0

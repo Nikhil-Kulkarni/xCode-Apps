@@ -12,14 +12,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="a5U-XI-ddG" customClass="SolidTableViewCell" customModule="Solid" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="61" id="a5U-XI-ddG" customClass="SolidTableViewCell" customModule="Solid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="61"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a5U-XI-ddG" id="hfG-tk-IcJ">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="351" height="60.5"/>
                 <autoresizingMask key="autoresizingMask"/>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="423" y="118"/>
+            <point key="canvasLocation" x="438.5" y="126.5"/>
         </tableViewCell>
     </objects>
 </document>

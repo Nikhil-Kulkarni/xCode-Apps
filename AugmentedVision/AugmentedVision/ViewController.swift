@@ -30,9 +30,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         motionManager.startGyroUpdates()
         motionManager.startAccelerometerUpdates()
-        motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue()) { (deviceMotion:CMDeviceMotion?, error:NSError?) -> Void in
-//            print("Coordinate: \(deviceMotion!.attitude.description)")
-        }
+//        motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue()) { (deviceMotion:CMDeviceMotion?, error:NSError?) -> Void in
+////            print("Acceleration \(deviceMotion)")
+//        }
         
         // Do any additional setup after loading the view, typically from a nib.
     }

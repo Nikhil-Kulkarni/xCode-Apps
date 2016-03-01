@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PNChart.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Calorie.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>STPopup.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UICountingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>11929A53A8AD141288485C2968E5803E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CEEB7F4CD0B847C8524FB6C3FD41570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6AE5F4F0E78C6DFC2C2789D3DEF1780</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E99DFB7810E9454EA53A5E85F2C06B63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
